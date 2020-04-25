@@ -22,11 +22,12 @@ namespace Valve.VR.InteractionSystem.Sample
         private float glow;
         private SteamVR_Input_Sources hand;
         private Interactable interactable;
-        public Hand attachToHand;
+        private Hand attachToHand;
 
         private void Start()
         {
             interactable = GetComponent<Interactable>();
+            attachToHand = GameObject.FindGameObjectWithTag("RHand").GetComponent<Hand>();
             interactable.OnAttachedToHand(attachToHand);
         }
 

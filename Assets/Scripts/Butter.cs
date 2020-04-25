@@ -5,9 +5,12 @@ using UnityEngine;
 public class Butter : MonoBehaviour
 {
 
-    public Transform robotCarryPointToSnapTo;
+    private Transform robotCarryPointToSnapTo;
 
-
+    private void Start()
+    {
+        robotCarryPointToSnapTo = GameObject.FindGameObjectWithTag("ButterCarryPoint").gameObject.transform;
+    }
 
     private void OnCollisionEnter(Collision collision)
     {
