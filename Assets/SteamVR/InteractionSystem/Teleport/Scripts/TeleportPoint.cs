@@ -33,7 +33,7 @@ namespace Valve.VR.InteractionSystem
         //Private data
         private bool gotReleventComponents = false;
         // uh oh? We probably need to modify this code to allow us play with the camera mesh hmm
-        private MeshRenderer markerMesh;
+        private MeshRenderer markerMesh { get; set; }
         private MeshRenderer switchSceneIcon;
         private MeshRenderer moveLocationIcon;
         private MeshRenderer lockedIcon;
