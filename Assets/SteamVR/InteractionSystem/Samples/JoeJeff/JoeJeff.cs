@@ -51,7 +51,10 @@ namespace Valve.VR.InteractionSystem.Sample
             animator = GetComponent<Animator>();
             rigidbody = GetComponent<Rigidbody>();
             interactable = GetComponent<Interactable>();
-            animator.speed = animationSpeed;
+            if (animator != null)
+            {
+                animator.speed = animationSpeed;
+            }
         }
 
         private void Update()
@@ -136,18 +139,20 @@ namespace Valve.VR.InteractionSystem.Sample
         }
 
         private void UpdateAnimator(Vector3 move)
-        {
-            animator.speed = fire.isBurning ? animationSpeed * 2 : animationSpeed;
-            // update the animator parameters
-            animator.SetFloat("Forward", fire.isBurning ? 2 : forwardAmount, 0.1f, Time.deltaTime);
-            animator.SetFloat("Turn", turnAmount, 0.1f, Time.deltaTime);
-            animator.SetBool("OnGround", isGrounded);
-            animator.SetBool("Holding", held);
-
-            if (!isGrounded)
+        { if (animator != null)
             {
-                animator.SetFloat("FallSpeed", Mathf.Abs(rigidbody.velocity.y));
-                animator.SetFloat("Jump", rigidbody.velocity.y);
+                animator.speed = fire.isBurning ? animationSpeed * 2 : animationSpeed;
+                // update the animator parameters
+                animator.SetFloat("Forward", fire.isBurning ? 2 : forwardAmount, 0.1f, Time.deltaTime);
+                animator.SetFloat("Turn", turnAmount, 0.1f, Time.deltaTime);
+                animator.SetBool("OnGround", isGrounded);
+                animator.SetBool("Holding", held);
+
+                if (!isGrounded)
+                {
+                    animator.SetFloat("FallSpeed", Mathf.Abs(rigidbody.velocity.y));
+                    animator.SetFloat("Jump", rigidbody.velocity.y);
+                }
             }
         }
 
