@@ -1,0 +1,2376 @@
+fileFormatVersion: 2
+guid: 7d875b67adfc57e4991e5a58a3c641b0
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      74: -5860678295125207046
+    second: "Bra\xE7o|Bra\xE7o_2|C4D Animation Take|Layer0"
+  - first:
+      74: -2468390685128646316
+    second: "Bra\xE7o|Bra\xE7o|C4D Animation Take|Layer0"
+  - first:
+      74: -4752014133180402200
+    second: "Bra\xE7o|Cube_100|C4D Animation Take|Layer0"
+  - first:
+      74: -3383793588606595231
+    second: "Bra\xE7o|Cube_1_35|C4D Animation Take|Layer0"
+  - first:
+      74: -3029041601657424406
+    second: "Bra\xE7o|Cube_1_49|C4D Animation Take|Layer0"
+  - first:
+      74: -2276649164174934525
+    second: "Bra\xE7o|Cube_1_82|C4D Animation Take|Layer0"
+  - first:
+      74: 8897013261137930043
+    second: "Bra\xE7o|Cube_1_96|C4D Animation Take|Layer0"
+  - first:
+      74: 2054558379711244754
+    second: "Bra\xE7o|Cube_2_30|C4D Animation Take|Layer0"
+  - first:
+      74: -6490105632930001095
+    second: "Bra\xE7o|Cube_2_44|C4D Animation Take|Layer0"
+  - first:
+      74: 2948167853417693641
+    second: "Bra\xE7o|Cube_2_77|C4D Animation Take|Layer0"
+  - first:
+      74: 4187634580717429713
+    second: "Bra\xE7o|Cube_2_91|C4D Animation Take|Layer0"
+  - first:
+      74: -6161334406386630419
+    second: "Bra\xE7o|Cube_39|C4D Animation Take|Layer0"
+  - first:
+      74: 1890532102716521680
+    second: "Bra\xE7o|Cube_3_13|C4D Animation Take|Layer0"
+  - first:
+      74: 4639128464072907273
+    second: "Bra\xE7o|Cube_3_14|C4D Animation Take|Layer0"
+  - first:
+      74: 7745953786886877599
+    second: "Bra\xE7o|Cube_3_15|C4D Animation Take|Layer0"
+  - first:
+      74: -618410505901815294
+    second: "Bra\xE7o|Cube_3_16|C4D Animation Take|Layer0"
+  - first:
+      74: -3770646238758612395
+    second: "Bra\xE7o|Cube_3_17|C4D Animation Take|Layer0"
+  - first:
+      74: -3795884623951253813
+    second: "Bra\xE7o|Cube_3_18|C4D Animation Take|Layer0"
+  - first:
+      74: 7491009163424473111
+    second: "Bra\xE7o|Cube_3_19|C4D Animation Take|Layer0"
+  - first:
+      74: -489179912790310683
+    second: "Bra\xE7o|Cube_3_20|C4D Animation Take|Layer0"
+  - first:
+      74: 4229548676878105939
+    second: "Bra\xE7o|Cube_3_21|C4D Animation Take|Layer0"
+  - first:
+      74: 5197614063821557502
+    second: "Bra\xE7o|Cube_3_22|C4D Animation Take|Layer0"
+  - first:
+      74: -1394619999489244850
+    second: "Bra\xE7o|Cube_3_23|C4D Animation Take|Layer0"
+  - first:
+      74: 5749636261982779977
+    second: "Bra\xE7o|Cube_3_24|C4D Animation Take|Layer0"
+  - first:
+      74: 6704356049609433100
+    second: "Bra\xE7o|Cube_3_42|C4D Animation Take|Layer0"
+  - first:
+      74: -1298071910796986628
+    second: "Bra\xE7o|Cube_3_43|C4D Animation Take|Layer0"
+  - first:
+      74: 1858715455338719238
+    second: "Bra\xE7o|Cube_3_44|C4D Animation Take|Layer0"
+  - first:
+      74: -5053129534085606174
+    second: "Bra\xE7o|Cube_3_60|C4D Animation Take|Layer0"
+  - first:
+      74: -878458351420826739
+    second: "Bra\xE7o|Cube_3_61|C4D Animation Take|Layer0"
+  - first:
+      74: 9160018101498428519
+    second: "Bra\xE7o|Cube_3_62|C4D Animation Take|Layer0"
+  - first:
+      74: -2235332608889481326
+    second: "Bra\xE7o|Cube_3_63|C4D Animation Take|Layer0"
+  - first:
+      74: -6447073435412162568
+    second: "Bra\xE7o|Cube_3_64|C4D Animation Take|Layer0"
+  - first:
+      74: 2200693926744133971
+    second: "Bra\xE7o|Cube_3_65|C4D Animation Take|Layer0"
+  - first:
+      74: -1397485097233851306
+    second: "Bra\xE7o|Cube_3_66|C4D Animation Take|Layer0"
+  - first:
+      74: -413919659558635516
+    second: "Bra\xE7o|Cube_3_67|C4D Animation Take|Layer0"
+  - first:
+      74: 8528624387600757625
+    second: "Bra\xE7o|Cube_3_68|C4D Animation Take|Layer0"
+  - first:
+      74: 9010135160580480164
+    second: "Bra\xE7o|Cube_3_69|C4D Animation Take|Layer0"
+  - first:
+      74: 4973940434717578182
+    second: "Bra\xE7o|Cube_3_70|C4D Animation Take|Layer0"
+  - first:
+      74: 2222174825968341332
+    second: "Bra\xE7o|Cube_3_71|C4D Animation Take|Layer0"
+  - first:
+      74: -5884580411234813160
+    second: "Bra\xE7o|Cube_3_89|C4D Animation Take|Layer0"
+  - first:
+      74: -317386596314839478
+    second: "Bra\xE7o|Cube_3_90|C4D Animation Take|Layer0"
+  - first:
+      74: -2651466327143651664
+    second: "Bra\xE7o|Cube_3_91|C4D Animation Take|Layer0"
+  - first:
+      74: 8119723994494544250
+    second: "Bra\xE7o|Cube_4_13|C4D Animation Take|Layer0"
+  - first:
+      74: -2029477207445792463
+    second: "Bra\xE7o|Cube_4_14|C4D Animation Take|Layer0"
+  - first:
+      74: -6011211512634259210
+    second: "Bra\xE7o|Cube_4_15|C4D Animation Take|Layer0"
+  - first:
+      74: -1339651411603833347
+    second: "Bra\xE7o|Cube_4_16|C4D Animation Take|Layer0"
+  - first:
+      74: 5541664317745930909
+    second: "Bra\xE7o|Cube_4_17|C4D Animation Take|Layer0"
+  - first:
+      74: -9015042017554164161
+    second: "Bra\xE7o|Cube_4_18|C4D Animation Take|Layer0"
+  - first:
+      74: -4349278082969383333
+    second: "Bra\xE7o|Cube_4_19|C4D Animation Take|Layer0"
+  - first:
+      74: 7647834594831114179
+    second: "Bra\xE7o|Cube_4_20|C4D Animation Take|Layer0"
+  - first:
+      74: -4706903529095763036
+    second: "Bra\xE7o|Cube_4_21|C4D Animation Take|Layer0"
+  - first:
+      74: 6505475033089049920
+    second: "Bra\xE7o|Cube_4_22|C4D Animation Take|Layer0"
+  - first:
+      74: -673297835515730344
+    second: "Bra\xE7o|Cube_4_23|C4D Animation Take|Layer0"
+  - first:
+      74: 4654434047298627987
+    second: "Bra\xE7o|Cube_4_24|C4D Animation Take|Layer0"
+  - first:
+      74: 6764903837807941657
+    second: "Bra\xE7o|Cube_4_42|C4D Animation Take|Layer0"
+  - first:
+      74: -4333843538840107726
+    second: "Bra\xE7o|Cube_4_43|C4D Animation Take|Layer0"
+  - first:
+      74: -2841842132055858270
+    second: "Bra\xE7o|Cube_4_44|C4D Animation Take|Layer0"
+  - first:
+      74: -1627155528308092502
+    second: "Bra\xE7o|Cube_4_60|C4D Animation Take|Layer0"
+  - first:
+      74: 3898949869110098395
+    second: "Bra\xE7o|Cube_4_61|C4D Animation Take|Layer0"
+  - first:
+      74: -7623274594077012249
+    second: "Bra\xE7o|Cube_4_62|C4D Animation Take|Layer0"
+  - first:
+      74: 1304072005733858256
+    second: "Bra\xE7o|Cube_4_63|C4D Animation Take|Layer0"
+  - first:
+      74: -5570915091542809993
+    second: "Bra\xE7o|Cube_4_64|C4D Animation Take|Layer0"
+  - first:
+      74: 6954706489467843924
+    second: "Bra\xE7o|Cube_4_65|C4D Animation Take|Layer0"
+  - first:
+      74: 2057879195469090359
+    second: "Bra\xE7o|Cube_4_66|C4D Animation Take|Layer0"
+  - first:
+      74: 3308520285604601016
+    second: "Bra\xE7o|Cube_4_67|C4D Animation Take|Layer0"
+  - first:
+      74: -1122220323197862519
+    second: "Bra\xE7o|Cube_4_68|C4D Animation Take|Layer0"
+  - first:
+      74: -2080114166852600303
+    second: "Bra\xE7o|Cube_4_69|C4D Animation Take|Layer0"
+  - first:
+      74: -5499096819351045182
+    second: "Bra\xE7o|Cube_4_70|C4D Animation Take|Layer0"
+  - first:
+      74: 8467291003981918707
+    second: "Bra\xE7o|Cube_4_71|C4D Animation Take|Layer0"
+  - first:
+      74: -6325097895575264257
+    second: "Bra\xE7o|Cube_4_89|C4D Animation Take|Layer0"
+  - first:
+      74: -8496382316762160701
+    second: "Bra\xE7o|Cube_4_90|C4D Animation Take|Layer0"
+  - first:
+      74: -3932628568851908430
+    second: "Bra\xE7o|Cube_4_91|C4D Animation Take|Layer0"
+  - first:
+      74: 5673285454368533105
+    second: "Bra\xE7o|Cube_53|C4D Animation Take|Layer0"
+  - first:
+      74: -8781307220899689108
+    second: "Bra\xE7o|Cube_86|C4D Animation Take|Layer0"
+  - first:
+      74: 1188370554105570762
+    second: "Bra\xE7o|Extrude_1_35|C4D Animation Take|Layer0"
+  - first:
+      74: -8499020548472564999
+    second: "Bra\xE7o|Extrude_1_82|C4D Animation Take|Layer0"
+  - first:
+      74: -5904815101354115577
+    second: "Bra\xE7o|Extrude_2_35|C4D Animation Take|Layer0"
+  - first:
+      74: 6749245725082018893
+    second: "Bra\xE7o|Extrude_2_87|C4D Animation Take|Layer0"
+  - first:
+      74: 3003084332669345601
+    second: "Bra\xE7o|Extrude_3_53|C4D Animation Take|Layer0"
+  - first:
+      74: -1338102368657990292
+    second: "Bra\xE7o|Extrude_3_6|C4D Animation Take|Layer0"
+  - first:
+      74: 2089388853909567984
+    second: "Bra\xE7o|Extrude_4_53|C4D Animation Take|Layer0"
+  - first:
+      74: -448780231580813900
+    second: "Bra\xE7o|Extrude_4_6|C4D Animation Take|Layer0"
+  - first:
+      74: -7760273347955765251
+    second: "Bra\xE7o|Null_1_25_2|C4D Animation Take|Layer0"
+  - first:
+      74: -9405325638034761
+    second: "Bra\xE7o|Null_1_25|C4D Animation Take|Layer0"
+  - first:
+      74: 6309899675636716349
+    second: "Bra\xE7o|Null_1_28_2|C4D Animation Take|Layer0"
+  - first:
+      74: 7823133352408544922
+    second: "Bra\xE7o|Null_1_28|C4D Animation Take|Layer0"
+  - first:
+      74: -6616598396315898753
+    second: "Bra\xE7o|Null_1_33_2|C4D Animation Take|Layer0"
+  - first:
+      74: 2052331048524377262
+    second: "Bra\xE7o|Null_1_33|C4D Animation Take|Layer0"
+  - first:
+      74: 2019798562273533619
+    second: "Bra\xE7o|Null_1_38_2|C4D Animation Take|Layer0"
+  - first:
+      74: 2574392231104037874
+    second: "Bra\xE7o|Null_1_38|C4D Animation Take|Layer0"
+  - first:
+      74: 8021556362033670178
+    second: "Bra\xE7o|Null_1_43_2|C4D Animation Take|Layer0"
+  - first:
+      74: -6358728038448438326
+    second: "Bra\xE7o|Null_1_43|C4D Animation Take|Layer0"
+  - first:
+      74: 2143603979910326554
+    second: "Bra\xE7o|Null_2_37|C4D Animation Take|Layer0"
+  - first:
+      74: 8859925062721747851
+    second: "Bra\xE7o|Null_2_85|C4D Animation Take|Layer0"
+  - first:
+      74: -2353754263468218322
+    second: "Bra\xE7o|Tube_3_4|C4D Animation Take|Layer0"
+  - first:
+      74: -4930797500698803998
+    second: "Bra\xE7o_2|Bra\xE7o_2|C4D Animation Take|Layer0"
+  - first:
+      74: -3850723396572579941
+    second: "Bra\xE7o_2|Bra\xE7o|C4D Animation Take|Layer0"
+  - first:
+      74: 8978805090264858161
+    second: "Bra\xE7o_2|Cube_100|C4D Animation Take|Layer0"
+  - first:
+      74: -3140151733080025157
+    second: "Bra\xE7o_2|Cube_1_35|C4D Animation Take|Layer0"
+  - first:
+      74: 9088661180823627417
+    second: "Bra\xE7o_2|Cube_1_49|C4D Animation Take|Layer0"
+  - first:
+      74: 7334390330620385445
+    second: "Bra\xE7o_2|Cube_1_82|C4D Animation Take|Layer0"
+  - first:
+      74: 3690191582799534032
+    second: "Bra\xE7o_2|Cube_1_96|C4D Animation Take|Layer0"
+  - first:
+      74: 6466645577317935145
+    second: "Bra\xE7o_2|Cube_2_30|C4D Animation Take|Layer0"
+  - first:
+      74: 5459074526468216654
+    second: "Bra\xE7o_2|Cube_2_44|C4D Animation Take|Layer0"
+  - first:
+      74: 4383606642288090910
+    second: "Bra\xE7o_2|Cube_2_77|C4D Animation Take|Layer0"
+  - first:
+      74: -3581705562690708893
+    second: "Bra\xE7o_2|Cube_2_91|C4D Animation Take|Layer0"
+  - first:
+      74: 4850243968003220259
+    second: "Bra\xE7o_2|Cube_39|C4D Animation Take|Layer0"
+  - first:
+      74: 616157764941226018
+    second: "Bra\xE7o_2|Cube_3_13|C4D Animation Take|Layer0"
+  - first:
+      74: -2833464275305535415
+    second: "Bra\xE7o_2|Cube_3_14|C4D Animation Take|Layer0"
+  - first:
+      74: 4810399684545733992
+    second: "Bra\xE7o_2|Cube_3_15|C4D Animation Take|Layer0"
+  - first:
+      74: 4681730888846389726
+    second: "Bra\xE7o_2|Cube_3_16|C4D Animation Take|Layer0"
+  - first:
+      74: 1001802861747860329
+    second: "Bra\xE7o_2|Cube_3_17|C4D Animation Take|Layer0"
+  - first:
+      74: 5905250104671102049
+    second: "Bra\xE7o_2|Cube_3_18|C4D Animation Take|Layer0"
+  - first:
+      74: 7616423754976387306
+    second: "Bra\xE7o_2|Cube_3_19|C4D Animation Take|Layer0"
+  - first:
+      74: -9184326418558612087
+    second: "Bra\xE7o_2|Cube_3_20|C4D Animation Take|Layer0"
+  - first:
+      74: 6159434017526795393
+    second: "Bra\xE7o_2|Cube_3_21|C4D Animation Take|Layer0"
+  - first:
+      74: -219494172437512351
+    second: "Bra\xE7o_2|Cube_3_22|C4D Animation Take|Layer0"
+  - first:
+      74: -8342329446522937298
+    second: "Bra\xE7o_2|Cube_3_23|C4D Animation Take|Layer0"
+  - first:
+      74: -6864216343537594062
+    second: "Bra\xE7o_2|Cube_3_24|C4D Animation Take|Layer0"
+  - first:
+      74: 8397061933301715494
+    second: "Bra\xE7o_2|Cube_3_42|C4D Animation Take|Layer0"
+  - first:
+      74: -1789283914439230298
+    second: "Bra\xE7o_2|Cube_3_43|C4D Animation Take|Layer0"
+  - first:
+      74: 2889650381754766758
+    second: "Bra\xE7o_2|Cube_3_44|C4D Animation Take|Layer0"
+  - first:
+      74: -6045281473807612907
+    second: "Bra\xE7o_2|Cube_3_60|C4D Animation Take|Layer0"
+  - first:
+      74: 8051183282578399991
+    second: "Bra\xE7o_2|Cube_3_61|C4D Animation Take|Layer0"
+  - first:
+      74: 1033748981191282855
+    second: "Bra\xE7o_2|Cube_3_62|C4D Animation Take|Layer0"
+  - first:
+      74: 1163592218246782292
+    second: "Bra\xE7o_2|Cube_3_63|C4D Animation Take|Layer0"
+  - first:
+      74: 3274226556498520177
+    second: "Bra\xE7o_2|Cube_3_64|C4D Animation Take|Layer0"
+  - first:
+      74: -2851570338244340011
+    second: "Bra\xE7o_2|Cube_3_65|C4D Animation Take|Layer0"
+  - first:
+      74: 4385144202426870973
+    second: "Bra\xE7o_2|Cube_3_66|C4D Animation Take|Layer0"
+  - first:
+      74: -6757905222741640395
+    second: "Bra\xE7o_2|Cube_3_67|C4D Animation Take|Layer0"
+  - first:
+      74: 6800958238819137798
+    second: "Bra\xE7o_2|Cube_3_68|C4D Animation Take|Layer0"
+  - first:
+      74: 3256712541402255605
+    second: "Bra\xE7o_2|Cube_3_69|C4D Animation Take|Layer0"
+  - first:
+      74: 5312558069205103619
+    second: "Bra\xE7o_2|Cube_3_70|C4D Animation Take|Layer0"
+  - first:
+      74: -2253873390576269577
+    second: "Bra\xE7o_2|Cube_3_71|C4D Animation Take|Layer0"
+  - first:
+      74: -500665541397937191
+    second: "Bra\xE7o_2|Cube_3_89|C4D Animation Take|Layer0"
+  - first:
+      74: -4358957223007358157
+    second: "Bra\xE7o_2|Cube_3_90|C4D Animation Take|Layer0"
+  - first:
+      74: -8595666989812993620
+    second: "Bra\xE7o_2|Cube_3_91|C4D Animation Take|Layer0"
+  - first:
+      74: 308772145425428030
+    second: "Bra\xE7o_2|Cube_4_13|C4D Animation Take|Layer0"
+  - first:
+      74: 7154010234228530855
+    second: "Bra\xE7o_2|Cube_4_14|C4D Animation Take|Layer0"
+  - first:
+      74: -6645385584406204243
+    second: "Bra\xE7o_2|Cube_4_15|C4D Animation Take|Layer0"
+  - first:
+      74: -1026401398807793856
+    second: "Bra\xE7o_2|Cube_4_16|C4D Animation Take|Layer0"
+  - first:
+      74: -7699022326201449856
+    second: "Bra\xE7o_2|Cube_4_17|C4D Animation Take|Layer0"
+  - first:
+      74: 5597973147195389890
+    second: "Bra\xE7o_2|Cube_4_18|C4D Animation Take|Layer0"
+  - first:
+      74: -438699122011894220
+    second: "Bra\xE7o_2|Cube_4_19|C4D Animation Take|Layer0"
+  - first:
+      74: 6303166035704689811
+    second: "Bra\xE7o_2|Cube_4_20|C4D Animation Take|Layer0"
+  - first:
+      74: -3087856115275811888
+    second: "Bra\xE7o_2|Cube_4_21|C4D Animation Take|Layer0"
+  - first:
+      74: -385540294573768751
+    second: "Bra\xE7o_2|Cube_4_22|C4D Animation Take|Layer0"
+  - first:
+      74: 1044675918391855901
+    second: "Bra\xE7o_2|Cube_4_23|C4D Animation Take|Layer0"
+  - first:
+      74: -2382843679472928352
+    second: "Bra\xE7o_2|Cube_4_24|C4D Animation Take|Layer0"
+  - first:
+      74: -6984880986036074961
+    second: "Bra\xE7o_2|Cube_4_42|C4D Animation Take|Layer0"
+  - first:
+      74: -2764495091110572857
+    second: "Bra\xE7o_2|Cube_4_43|C4D Animation Take|Layer0"
+  - first:
+      74: 8568865466579803254
+    second: "Bra\xE7o_2|Cube_4_44|C4D Animation Take|Layer0"
+  - first:
+      74: -1427365073334367380
+    second: "Bra\xE7o_2|Cube_4_60|C4D Animation Take|Layer0"
+  - first:
+      74: 3467256277079159160
+    second: "Bra\xE7o_2|Cube_4_61|C4D Animation Take|Layer0"
+  - first:
+      74: -6803970780753652412
+    second: "Bra\xE7o_2|Cube_4_62|C4D Animation Take|Layer0"
+  - first:
+      74: 8669047685080364492
+    second: "Bra\xE7o_2|Cube_4_63|C4D Animation Take|Layer0"
+  - first:
+      74: -4991166946173772418
+    second: "Bra\xE7o_2|Cube_4_64|C4D Animation Take|Layer0"
+  - first:
+      74: 6117636765110291026
+    second: "Bra\xE7o_2|Cube_4_65|C4D Animation Take|Layer0"
+  - first:
+      74: 3264300750477198880
+    second: "Bra\xE7o_2|Cube_4_66|C4D Animation Take|Layer0"
+  - first:
+      74: -7462478955609299148
+    second: "Bra\xE7o_2|Cube_4_67|C4D Animation Take|Layer0"
+  - first:
+      74: 2270303402043042287
+    second: "Bra\xE7o_2|Cube_4_68|C4D Animation Take|Layer0"
+  - first:
+      74: -7233930372215621573
+    second: "Bra\xE7o_2|Cube_4_69|C4D Animation Take|Layer0"
+  - first:
+      74: -8201243703228054538
+    second: "Bra\xE7o_2|Cube_4_70|C4D Animation Take|Layer0"
+  - first:
+      74: 5622401956639446854
+    second: "Bra\xE7o_2|Cube_4_71|C4D Animation Take|Layer0"
+  - first:
+      74: -5010875419443965141
+    second: "Bra\xE7o_2|Cube_4_89|C4D Animation Take|Layer0"
+  - first:
+      74: -7554783807218257003
+    second: "Bra\xE7o_2|Cube_4_90|C4D Animation Take|Layer0"
+  - first:
+      74: -2920648897506344315
+    second: "Bra\xE7o_2|Cube_4_91|C4D Animation Take|Layer0"
+  - first:
+      74: 519358737899174993
+    second: "Bra\xE7o_2|Cube_53|C4D Animation Take|Layer0"
+  - first:
+      74: 1836835884968251681
+    second: "Bra\xE7o_2|Cube_86|C4D Animation Take|Layer0"
+  - first:
+      74: 184402647663023136
+    second: "Bra\xE7o_2|Extrude_1_35|C4D Animation Take|Layer0"
+  - first:
+      74: -3732848824961703200
+    second: "Bra\xE7o_2|Extrude_1_82|C4D Animation Take|Layer0"
+  - first:
+      74: -733265481676117300
+    second: "Bra\xE7o_2|Extrude_2_35|C4D Animation Take|Layer0"
+  - first:
+      74: -8438850348694256703
+    second: "Bra\xE7o_2|Extrude_2_87|C4D Animation Take|Layer0"
+  - first:
+      74: 5210042996395911939
+    second: "Bra\xE7o_2|Extrude_3_53|C4D Animation Take|Layer0"
+  - first:
+      74: -312369819803130406
+    second: "Bra\xE7o_2|Extrude_3_6|C4D Animation Take|Layer0"
+  - first:
+      74: 4848660781101499027
+    second: "Bra\xE7o_2|Extrude_4_53|C4D Animation Take|Layer0"
+  - first:
+      74: -2641459018680209451
+    second: "Bra\xE7o_2|Extrude_4_6|C4D Animation Take|Layer0"
+  - first:
+      74: 5794405084807192737
+    second: "Bra\xE7o_2|Null_1_25_2|C4D Animation Take|Layer0"
+  - first:
+      74: -2424658915293887495
+    second: "Bra\xE7o_2|Null_1_25|C4D Animation Take|Layer0"
+  - first:
+      74: 8024663564885490656
+    second: "Bra\xE7o_2|Null_1_28_2|C4D Animation Take|Layer0"
+  - first:
+      74: 8603309879289082857
+    second: "Bra\xE7o_2|Null_1_28|C4D Animation Take|Layer0"
+  - first:
+      74: 4456349332947379961
+    second: "Bra\xE7o_2|Null_1_33_2|C4D Animation Take|Layer0"
+  - first:
+      74: -1207582341229595689
+    second: "Bra\xE7o_2|Null_1_33|C4D Animation Take|Layer0"
+  - first:
+      74: 2208960180977592253
+    second: "Bra\xE7o_2|Null_1_38_2|C4D Animation Take|Layer0"
+  - first:
+      74: 4180815160219430700
+    second: "Bra\xE7o_2|Null_1_38|C4D Animation Take|Layer0"
+  - first:
+      74: -5550240706808658115
+    second: "Bra\xE7o_2|Null_1_43_2|C4D Animation Take|Layer0"
+  - first:
+      74: -8948873034979764052
+    second: "Bra\xE7o_2|Null_1_43|C4D Animation Take|Layer0"
+  - first:
+      74: 3807415336826553791
+    second: "Bra\xE7o_2|Null_2_37|C4D Animation Take|Layer0"
+  - first:
+      74: -7125427227711653096
+    second: "Bra\xE7o_2|Null_2_85|C4D Animation Take|Layer0"
+  - first:
+      74: 4714775732552711009
+    second: "Bra\xE7o_2|Tube_3_4|C4D Animation Take|Layer0"
+  - first:
+      74: -3807218208453656270
+    second: "Null_1_25|Bra\xE7o_2|C4D Animation Take|Layer0"
+  - first:
+      74: -2861590890714011541
+    second: "Null_1_25|Bra\xE7o|C4D Animation Take|Layer0"
+  - first:
+      74: 3389870747163743216
+    second: Null_1_25|Cube_100|C4D Animation Take|Layer0
+  - first:
+      74: 3893229411682691533
+    second: Null_1_25|Cube_1_35|C4D Animation Take|Layer0
+  - first:
+      74: 9118564883905671567
+    second: Null_1_25|Cube_1_49|C4D Animation Take|Layer0
+  - first:
+      74: -737426125854845469
+    second: Null_1_25|Cube_1_82|C4D Animation Take|Layer0
+  - first:
+      74: -5248731411649813048
+    second: Null_1_25|Cube_1_96|C4D Animation Take|Layer0
+  - first:
+      74: 9081330336521315377
+    second: Null_1_25|Cube_2_30|C4D Animation Take|Layer0
+  - first:
+      74: -2745206224910684949
+    second: Null_1_25|Cube_2_44|C4D Animation Take|Layer0
+  - first:
+      74: 8017053173173520291
+    second: Null_1_25|Cube_2_77|C4D Animation Take|Layer0
+  - first:
+      74: 5327564187972312470
+    second: Null_1_25|Cube_2_91|C4D Animation Take|Layer0
+  - first:
+      74: 6053956312156905252
+    second: Null_1_25|Cube_39|C4D Animation Take|Layer0
+  - first:
+      74: 7861769500114946514
+    second: Null_1_25|Cube_3_13|C4D Animation Take|Layer0
+  - first:
+      74: 964238333984695415
+    second: Null_1_25|Cube_3_14|C4D Animation Take|Layer0
+  - first:
+      74: -7249901669756159179
+    second: Null_1_25|Cube_3_15|C4D Animation Take|Layer0
+  - first:
+      74: 8742520172140523859
+    second: Null_1_25|Cube_3_16|C4D Animation Take|Layer0
+  - first:
+      74: -3667441859363171123
+    second: Null_1_25|Cube_3_17|C4D Animation Take|Layer0
+  - first:
+      74: 4712211728672393336
+    second: Null_1_25|Cube_3_18|C4D Animation Take|Layer0
+  - first:
+      74: -242043744426720834
+    second: Null_1_25|Cube_3_19|C4D Animation Take|Layer0
+  - first:
+      74: 6993908049311703191
+    second: Null_1_25|Cube_3_20|C4D Animation Take|Layer0
+  - first:
+      74: -6863249683156380330
+    second: Null_1_25|Cube_3_21|C4D Animation Take|Layer0
+  - first:
+      74: -5189845468257777773
+    second: Null_1_25|Cube_3_22|C4D Animation Take|Layer0
+  - first:
+      74: -8487769450994507336
+    second: Null_1_25|Cube_3_23|C4D Animation Take|Layer0
+  - first:
+      74: 1588649415395719796
+    second: Null_1_25|Cube_3_24|C4D Animation Take|Layer0
+  - first:
+      74: 177012165902635533
+    second: Null_1_25|Cube_3_42|C4D Animation Take|Layer0
+  - first:
+      74: 422871702394274071
+    second: Null_1_25|Cube_3_43|C4D Animation Take|Layer0
+  - first:
+      74: -8140939631184767646
+    second: Null_1_25|Cube_3_44|C4D Animation Take|Layer0
+  - first:
+      74: 9053642703212094601
+    second: Null_1_25|Cube_3_60|C4D Animation Take|Layer0
+  - first:
+      74: -2900192987756767070
+    second: Null_1_25|Cube_3_61|C4D Animation Take|Layer0
+  - first:
+      74: -5697226613045360932
+    second: Null_1_25|Cube_3_62|C4D Animation Take|Layer0
+  - first:
+      74: 1165609192684278584
+    second: Null_1_25|Cube_3_63|C4D Animation Take|Layer0
+  - first:
+      74: 7833963146572904364
+    second: Null_1_25|Cube_3_64|C4D Animation Take|Layer0
+  - first:
+      74: -4661213870237332912
+    second: Null_1_25|Cube_3_65|C4D Animation Take|Layer0
+  - first:
+      74: -1893489178976280023
+    second: Null_1_25|Cube_3_66|C4D Animation Take|Layer0
+  - first:
+      74: -2137680100470852480
+    second: Null_1_25|Cube_3_67|C4D Animation Take|Layer0
+  - first:
+      74: 1559910375712369210
+    second: Null_1_25|Cube_3_68|C4D Animation Take|Layer0
+  - first:
+      74: 4887787512415578780
+    second: Null_1_25|Cube_3_69|C4D Animation Take|Layer0
+  - first:
+      74: 6305648559401004700
+    second: Null_1_25|Cube_3_70|C4D Animation Take|Layer0
+  - first:
+      74: -2051444676930327580
+    second: Null_1_25|Cube_3_71|C4D Animation Take|Layer0
+  - first:
+      74: 7216268105964083359
+    second: Null_1_25|Cube_3_89|C4D Animation Take|Layer0
+  - first:
+      74: 229258016984736890
+    second: Null_1_25|Cube_3_90|C4D Animation Take|Layer0
+  - first:
+      74: -5341285985254063938
+    second: Null_1_25|Cube_3_91|C4D Animation Take|Layer0
+  - first:
+      74: -8169786383197631635
+    second: Null_1_25|Cube_4_13|C4D Animation Take|Layer0
+  - first:
+      74: -2800187576216794904
+    second: Null_1_25|Cube_4_14|C4D Animation Take|Layer0
+  - first:
+      74: -8054724180407661311
+    second: Null_1_25|Cube_4_15|C4D Animation Take|Layer0
+  - first:
+      74: 1001173563926478845
+    second: Null_1_25|Cube_4_16|C4D Animation Take|Layer0
+  - first:
+      74: -8854220025136885142
+    second: Null_1_25|Cube_4_17|C4D Animation Take|Layer0
+  - first:
+      74: -3423298015541277912
+    second: Null_1_25|Cube_4_18|C4D Animation Take|Layer0
+  - first:
+      74: 2109915181602861467
+    second: Null_1_25|Cube_4_19|C4D Animation Take|Layer0
+  - first:
+      74: 8346627412922464838
+    second: Null_1_25|Cube_4_20|C4D Animation Take|Layer0
+  - first:
+      74: -3260759704477422935
+    second: Null_1_25|Cube_4_21|C4D Animation Take|Layer0
+  - first:
+      74: -5227081867474146613
+    second: Null_1_25|Cube_4_22|C4D Animation Take|Layer0
+  - first:
+      74: -487873857957511244
+    second: Null_1_25|Cube_4_23|C4D Animation Take|Layer0
+  - first:
+      74: -5852744938562835186
+    second: Null_1_25|Cube_4_24|C4D Animation Take|Layer0
+  - first:
+      74: -323805936465364834
+    second: Null_1_25|Cube_4_42|C4D Animation Take|Layer0
+  - first:
+      74: 8522911690476360016
+    second: Null_1_25|Cube_4_43|C4D Animation Take|Layer0
+  - first:
+      74: -8297898317678527364
+    second: Null_1_25|Cube_4_44|C4D Animation Take|Layer0
+  - first:
+      74: -1030620716518735252
+    second: Null_1_25|Cube_4_60|C4D Animation Take|Layer0
+  - first:
+      74: 6166003054149475569
+    second: Null_1_25|Cube_4_61|C4D Animation Take|Layer0
+  - first:
+      74: -6708439347438775280
+    second: Null_1_25|Cube_4_62|C4D Animation Take|Layer0
+  - first:
+      74: 213922337468471407
+    second: Null_1_25|Cube_4_63|C4D Animation Take|Layer0
+  - first:
+      74: -349983497320037227
+    second: Null_1_25|Cube_4_64|C4D Animation Take|Layer0
+  - first:
+      74: 5440564426555227767
+    second: Null_1_25|Cube_4_65|C4D Animation Take|Layer0
+  - first:
+      74: 3847482462382447953
+    second: Null_1_25|Cube_4_66|C4D Animation Take|Layer0
+  - first:
+      74: 3359504864381958230
+    second: Null_1_25|Cube_4_67|C4D Animation Take|Layer0
+  - first:
+      74: -488984073569253359
+    second: Null_1_25|Cube_4_68|C4D Animation Take|Layer0
+  - first:
+      74: -8727268407808696586
+    second: Null_1_25|Cube_4_69|C4D Animation Take|Layer0
+  - first:
+      74: -3143484257220887130
+    second: Null_1_25|Cube_4_70|C4D Animation Take|Layer0
+  - first:
+      74: 6475892153613171859
+    second: Null_1_25|Cube_4_71|C4D Animation Take|Layer0
+  - first:
+      74: -547187652613510195
+    second: Null_1_25|Cube_4_89|C4D Animation Take|Layer0
+  - first:
+      74: -3373524757918731416
+    second: Null_1_25|Cube_4_90|C4D Animation Take|Layer0
+  - first:
+      74: -6430029656289035555
+    second: Null_1_25|Cube_4_91|C4D Animation Take|Layer0
+  - first:
+      74: -5789703022826235877
+    second: Null_1_25|Cube_53|C4D Animation Take|Layer0
+  - first:
+      74: 8769590507363601312
+    second: Null_1_25|Cube_86|C4D Animation Take|Layer0
+  - first:
+      74: 505325576295642641
+    second: Null_1_25|Extrude_1_35|C4D Animation Take|Layer0
+  - first:
+      74: 700847413989468802
+    second: Null_1_25|Extrude_1_82|C4D Animation Take|Layer0
+  - first:
+      74: -1689010332359160891
+    second: Null_1_25|Extrude_2_35|C4D Animation Take|Layer0
+  - first:
+      74: 5412232361961675187
+    second: Null_1_25|Extrude_2_87|C4D Animation Take|Layer0
+  - first:
+      74: -8122561910997062235
+    second: Null_1_25|Extrude_3_53|C4D Animation Take|Layer0
+  - first:
+      74: 7088794961359715266
+    second: Null_1_25|Extrude_3_6|C4D Animation Take|Layer0
+  - first:
+      74: -2653749098489766514
+    second: Null_1_25|Extrude_4_53|C4D Animation Take|Layer0
+  - first:
+      74: 478074869205565481
+    second: Null_1_25|Extrude_4_6|C4D Animation Take|Layer0
+  - first:
+      74: -7943898797868415721
+    second: Null_1_25|Null_1_25_2|C4D Animation Take|Layer0
+  - first:
+      74: 8480846197248449629
+    second: Null_1_25|Null_1_25|C4D Animation Take|Layer0
+  - first:
+      74: 1128851779041192809
+    second: Null_1_25|Null_1_28_2|C4D Animation Take|Layer0
+  - first:
+      74: 9127223532266505476
+    second: Null_1_25|Null_1_28|C4D Animation Take|Layer0
+  - first:
+      74: -8613196859869303854
+    second: Null_1_25|Null_1_33_2|C4D Animation Take|Layer0
+  - first:
+      74: 4077653515945803679
+    second: Null_1_25|Null_1_33|C4D Animation Take|Layer0
+  - first:
+      74: 1267321465784814587
+    second: Null_1_25|Null_1_38_2|C4D Animation Take|Layer0
+  - first:
+      74: 3027547522069602979
+    second: Null_1_25|Null_1_38|C4D Animation Take|Layer0
+  - first:
+      74: 1547077896367756711
+    second: Null_1_25|Null_1_43_2|C4D Animation Take|Layer0
+  - first:
+      74: -8150641321256635771
+    second: Null_1_25|Null_1_43|C4D Animation Take|Layer0
+  - first:
+      74: -5971339170284426083
+    second: Null_1_25|Null_2_37|C4D Animation Take|Layer0
+  - first:
+      74: 1155125928158300419
+    second: Null_1_25|Null_2_85|C4D Animation Take|Layer0
+  - first:
+      74: -6651464092613655618
+    second: Null_1_25|Tube_3_4|C4D Animation Take|Layer0
+  - first:
+      74: 2349628866893366231
+    second: "Null_1_28|Bra\xE7o_2|C4D Animation Take|Layer0"
+  - first:
+      74: -7026007851328642587
+    second: "Null_1_28|Bra\xE7o|C4D Animation Take|Layer0"
+  - first:
+      74: -8168519359397768006
+    second: Null_1_28|Cube_100|C4D Animation Take|Layer0
+  - first:
+      74: -42447976044548032
+    second: Null_1_28|Cube_1_35|C4D Animation Take|Layer0
+  - first:
+      74: -3766950988351671469
+    second: Null_1_28|Cube_1_49|C4D Animation Take|Layer0
+  - first:
+      74: -4514403163342939917
+    second: Null_1_28|Cube_1_82|C4D Animation Take|Layer0
+  - first:
+      74: 6522318730256652028
+    second: Null_1_28|Cube_1_96|C4D Animation Take|Layer0
+  - first:
+      74: -357452592072303036
+    second: Null_1_28|Cube_2_30|C4D Animation Take|Layer0
+  - first:
+      74: 7339024052383761741
+    second: Null_1_28|Cube_2_44|C4D Animation Take|Layer0
+  - first:
+      74: 9030785180517735861
+    second: Null_1_28|Cube_2_77|C4D Animation Take|Layer0
+  - first:
+      74: 5468672470835553175
+    second: Null_1_28|Cube_2_91|C4D Animation Take|Layer0
+  - first:
+      74: -943173606048614654
+    second: Null_1_28|Cube_39|C4D Animation Take|Layer0
+  - first:
+      74: -3524449248027400428
+    second: Null_1_28|Cube_3_13|C4D Animation Take|Layer0
+  - first:
+      74: -5622634871479281410
+    second: Null_1_28|Cube_3_14|C4D Animation Take|Layer0
+  - first:
+      74: 8863261711414292939
+    second: Null_1_28|Cube_3_15|C4D Animation Take|Layer0
+  - first:
+      74: 3969479746353378296
+    second: Null_1_28|Cube_3_16|C4D Animation Take|Layer0
+  - first:
+      74: -6698032136337867646
+    second: Null_1_28|Cube_3_17|C4D Animation Take|Layer0
+  - first:
+      74: 8572097070244698066
+    second: Null_1_28|Cube_3_18|C4D Animation Take|Layer0
+  - first:
+      74: -4023443561757567077
+    second: Null_1_28|Cube_3_19|C4D Animation Take|Layer0
+  - first:
+      74: 327091973031414719
+    second: Null_1_28|Cube_3_20|C4D Animation Take|Layer0
+  - first:
+      74: -3733263229327858364
+    second: Null_1_28|Cube_3_21|C4D Animation Take|Layer0
+  - first:
+      74: 2253533521415729175
+    second: Null_1_28|Cube_3_22|C4D Animation Take|Layer0
+  - first:
+      74: 1039326598179507884
+    second: Null_1_28|Cube_3_23|C4D Animation Take|Layer0
+  - first:
+      74: -5314462922736092598
+    second: Null_1_28|Cube_3_24|C4D Animation Take|Layer0
+  - first:
+      74: -4578535819287101268
+    second: Null_1_28|Cube_3_42|C4D Animation Take|Layer0
+  - first:
+      74: 4904396291601610152
+    second: Null_1_28|Cube_3_43|C4D Animation Take|Layer0
+  - first:
+      74: -5183722802514595124
+    second: Null_1_28|Cube_3_44|C4D Animation Take|Layer0
+  - first:
+      74: -6082676027824549099
+    second: Null_1_28|Cube_3_60|C4D Animation Take|Layer0
+  - first:
+      74: -5232848823688555419
+    second: Null_1_28|Cube_3_61|C4D Animation Take|Layer0
+  - first:
+      74: 8251939706494939876
+    second: Null_1_28|Cube_3_62|C4D Animation Take|Layer0
+  - first:
+      74: -6419240420842093925
+    second: Null_1_28|Cube_3_63|C4D Animation Take|Layer0
+  - first:
+      74: 7452639294221717032
+    second: Null_1_28|Cube_3_64|C4D Animation Take|Layer0
+  - first:
+      74: 3870763929245242848
+    second: Null_1_28|Cube_3_65|C4D Animation Take|Layer0
+  - first:
+      74: -4009613166733837326
+    second: Null_1_28|Cube_3_66|C4D Animation Take|Layer0
+  - first:
+      74: -6751944162157228651
+    second: Null_1_28|Cube_3_67|C4D Animation Take|Layer0
+  - first:
+      74: -6761875339307806392
+    second: Null_1_28|Cube_3_68|C4D Animation Take|Layer0
+  - first:
+      74: 7540071519439121135
+    second: Null_1_28|Cube_3_69|C4D Animation Take|Layer0
+  - first:
+      74: 3748653774983296978
+    second: Null_1_28|Cube_3_70|C4D Animation Take|Layer0
+  - first:
+      74: -1256009523067354027
+    second: Null_1_28|Cube_3_71|C4D Animation Take|Layer0
+  - first:
+      74: -4429155923733243926
+    second: Null_1_28|Cube_3_89|C4D Animation Take|Layer0
+  - first:
+      74: -9037007265837859929
+    second: Null_1_28|Cube_3_90|C4D Animation Take|Layer0
+  - first:
+      74: -7811119285900771482
+    second: Null_1_28|Cube_3_91|C4D Animation Take|Layer0
+  - first:
+      74: 6451029706298431420
+    second: Null_1_28|Cube_4_13|C4D Animation Take|Layer0
+  - first:
+      74: 4193176862097101432
+    second: Null_1_28|Cube_4_14|C4D Animation Take|Layer0
+  - first:
+      74: 5688025795716511317
+    second: Null_1_28|Cube_4_15|C4D Animation Take|Layer0
+  - first:
+      74: 3461760401163107151
+    second: Null_1_28|Cube_4_16|C4D Animation Take|Layer0
+  - first:
+      74: -1308894182764900568
+    second: Null_1_28|Cube_4_17|C4D Animation Take|Layer0
+  - first:
+      74: -6637345289807323838
+    second: Null_1_28|Cube_4_18|C4D Animation Take|Layer0
+  - first:
+      74: 6242987530173122461
+    second: Null_1_28|Cube_4_19|C4D Animation Take|Layer0
+  - first:
+      74: 3010584657685280909
+    second: Null_1_28|Cube_4_20|C4D Animation Take|Layer0
+  - first:
+      74: 5038197546676291108
+    second: Null_1_28|Cube_4_21|C4D Animation Take|Layer0
+  - first:
+      74: -2664201372177546380
+    second: Null_1_28|Cube_4_22|C4D Animation Take|Layer0
+  - first:
+      74: -7469698207278943294
+    second: Null_1_28|Cube_4_23|C4D Animation Take|Layer0
+  - first:
+      74: -7382200797584525422
+    second: Null_1_28|Cube_4_24|C4D Animation Take|Layer0
+  - first:
+      74: 5760497776375323952
+    second: Null_1_28|Cube_4_42|C4D Animation Take|Layer0
+  - first:
+      74: -420604221763850373
+    second: Null_1_28|Cube_4_43|C4D Animation Take|Layer0
+  - first:
+      74: -1166543361767768214
+    second: Null_1_28|Cube_4_44|C4D Animation Take|Layer0
+  - first:
+      74: 4160551026836506262
+    second: Null_1_28|Cube_4_60|C4D Animation Take|Layer0
+  - first:
+      74: -6673758852767405612
+    second: Null_1_28|Cube_4_61|C4D Animation Take|Layer0
+  - first:
+      74: -3492716425000222727
+    second: Null_1_28|Cube_4_62|C4D Animation Take|Layer0
+  - first:
+      74: 7381048972945423440
+    second: Null_1_28|Cube_4_63|C4D Animation Take|Layer0
+  - first:
+      74: 2612680147787192164
+    second: Null_1_28|Cube_4_64|C4D Animation Take|Layer0
+  - first:
+      74: 3845147326595966478
+    second: Null_1_28|Cube_4_65|C4D Animation Take|Layer0
+  - first:
+      74: 1168445830555786963
+    second: Null_1_28|Cube_4_66|C4D Animation Take|Layer0
+  - first:
+      74: 6412824002244527216
+    second: Null_1_28|Cube_4_67|C4D Animation Take|Layer0
+  - first:
+      74: -7737497258073863813
+    second: Null_1_28|Cube_4_68|C4D Animation Take|Layer0
+  - first:
+      74: -2925868208283888931
+    second: Null_1_28|Cube_4_69|C4D Animation Take|Layer0
+  - first:
+      74: -4800453611360087950
+    second: Null_1_28|Cube_4_70|C4D Animation Take|Layer0
+  - first:
+      74: 2418195026646617247
+    second: Null_1_28|Cube_4_71|C4D Animation Take|Layer0
+  - first:
+      74: -7961296545984920368
+    second: Null_1_28|Cube_4_89|C4D Animation Take|Layer0
+  - first:
+      74: 4849324361049802707
+    second: Null_1_28|Cube_4_90|C4D Animation Take|Layer0
+  - first:
+      74: -1953501054313489023
+    second: Null_1_28|Cube_4_91|C4D Animation Take|Layer0
+  - first:
+      74: 8601030473380838440
+    second: Null_1_28|Cube_53|C4D Animation Take|Layer0
+  - first:
+      74: 5384160002658338091
+    second: Null_1_28|Cube_86|C4D Animation Take|Layer0
+  - first:
+      74: 8508577027193786679
+    second: Null_1_28|Extrude_1_35|C4D Animation Take|Layer0
+  - first:
+      74: -5831158774554256291
+    second: Null_1_28|Extrude_1_82|C4D Animation Take|Layer0
+  - first:
+      74: 217513664878824329
+    second: Null_1_28|Extrude_2_35|C4D Animation Take|Layer0
+  - first:
+      74: -332776678913663053
+    second: Null_1_28|Extrude_2_87|C4D Animation Take|Layer0
+  - first:
+      74: -7443992792336679681
+    second: Null_1_28|Extrude_3_53|C4D Animation Take|Layer0
+  - first:
+      74: -8746185461120003999
+    second: Null_1_28|Extrude_3_6|C4D Animation Take|Layer0
+  - first:
+      74: 9055403779398032939
+    second: Null_1_28|Extrude_4_53|C4D Animation Take|Layer0
+  - first:
+      74: 1148053961024753168
+    second: Null_1_28|Extrude_4_6|C4D Animation Take|Layer0
+  - first:
+      74: -8492502392429323473
+    second: Null_1_28|Null_1_25_2|C4D Animation Take|Layer0
+  - first:
+      74: 9063885452467197799
+    second: Null_1_28|Null_1_25|C4D Animation Take|Layer0
+  - first:
+      74: -1839258789531130648
+    second: Null_1_28|Null_1_28_2|C4D Animation Take|Layer0
+  - first:
+      74: 34937847364245578
+    second: Null_1_28|Null_1_28|C4D Animation Take|Layer0
+  - first:
+      74: -104886426677772908
+    second: Null_1_28|Null_1_33_2|C4D Animation Take|Layer0
+  - first:
+      74: 8312998206079666047
+    second: Null_1_28|Null_1_33|C4D Animation Take|Layer0
+  - first:
+      74: 7367539350154182143
+    second: Null_1_28|Null_1_38_2|C4D Animation Take|Layer0
+  - first:
+      74: 4804398608055037716
+    second: Null_1_28|Null_1_38|C4D Animation Take|Layer0
+  - first:
+      74: 4937274868068091323
+    second: Null_1_28|Null_1_43_2|C4D Animation Take|Layer0
+  - first:
+      74: -8178404746642330771
+    second: Null_1_28|Null_1_43|C4D Animation Take|Layer0
+  - first:
+      74: 7559065393695426023
+    second: Null_1_28|Null_2_37|C4D Animation Take|Layer0
+  - first:
+      74: -2445457097887240104
+    second: Null_1_28|Null_2_85|C4D Animation Take|Layer0
+  - first:
+      74: -3280990805326190133
+    second: Null_1_28|Tube_3_4|C4D Animation Take|Layer0
+  - first:
+      74: -4322246889392295854
+    second: "Null_2_37|Bra\xE7o_2|C4D Animation Take|Layer0"
+  - first:
+      74: 2449114601090112571
+    second: "Null_2_37|Bra\xE7o|C4D Animation Take|Layer0"
+  - first:
+      74: 3927226922244093124
+    second: Null_2_37|Cube_100|C4D Animation Take|Layer0
+  - first:
+      74: 3974562021420043850
+    second: Null_2_37|Cube_1_35|C4D Animation Take|Layer0
+  - first:
+      74: -7157452516634650265
+    second: Null_2_37|Cube_1_49|C4D Animation Take|Layer0
+  - first:
+      74: 6622001808130778013
+    second: Null_2_37|Cube_1_82|C4D Animation Take|Layer0
+  - first:
+      74: -7444668409329986450
+    second: Null_2_37|Cube_1_96|C4D Animation Take|Layer0
+  - first:
+      74: 6941222674437739921
+    second: Null_2_37|Cube_2_30|C4D Animation Take|Layer0
+  - first:
+      74: -3110708424084709831
+    second: Null_2_37|Cube_2_44|C4D Animation Take|Layer0
+  - first:
+      74: -5550859265520447527
+    second: Null_2_37|Cube_2_77|C4D Animation Take|Layer0
+  - first:
+      74: -8430422923574427593
+    second: Null_2_37|Cube_2_91|C4D Animation Take|Layer0
+  - first:
+      74: 8507183528652776035
+    second: Null_2_37|Cube_39|C4D Animation Take|Layer0
+  - first:
+      74: 1325322875606067531
+    second: Null_2_37|Cube_3_13|C4D Animation Take|Layer0
+  - first:
+      74: -1057196454190387631
+    second: Null_2_37|Cube_3_14|C4D Animation Take|Layer0
+  - first:
+      74: -8852041454636788053
+    second: Null_2_37|Cube_3_15|C4D Animation Take|Layer0
+  - first:
+      74: -991588822230645637
+    second: Null_2_37|Cube_3_16|C4D Animation Take|Layer0
+  - first:
+      74: -4058181983495154342
+    second: Null_2_37|Cube_3_17|C4D Animation Take|Layer0
+  - first:
+      74: 6984720625385963821
+    second: Null_2_37|Cube_3_18|C4D Animation Take|Layer0
+  - first:
+      74: -7091475657928718887
+    second: Null_2_37|Cube_3_19|C4D Animation Take|Layer0
+  - first:
+      74: 6731904406115182436
+    second: Null_2_37|Cube_3_20|C4D Animation Take|Layer0
+  - first:
+      74: 8624315633947122511
+    second: Null_2_37|Cube_3_21|C4D Animation Take|Layer0
+  - first:
+      74: 5683274750101607137
+    second: Null_2_37|Cube_3_22|C4D Animation Take|Layer0
+  - first:
+      74: -5956153921713085633
+    second: Null_2_37|Cube_3_23|C4D Animation Take|Layer0
+  - first:
+      74: -1122399807048954869
+    second: Null_2_37|Cube_3_24|C4D Animation Take|Layer0
+  - first:
+      74: 6425459472068119895
+    second: Null_2_37|Cube_3_42|C4D Animation Take|Layer0
+  - first:
+      74: 3561323893131794456
+    second: Null_2_37|Cube_3_43|C4D Animation Take|Layer0
+  - first:
+      74: -7969821647723178808
+    second: Null_2_37|Cube_3_44|C4D Animation Take|Layer0
+  - first:
+      74: 5572880531950838926
+    second: Null_2_37|Cube_3_60|C4D Animation Take|Layer0
+  - first:
+      74: -8181405599940264320
+    second: Null_2_37|Cube_3_61|C4D Animation Take|Layer0
+  - first:
+      74: -5114463241967188116
+    second: Null_2_37|Cube_3_62|C4D Animation Take|Layer0
+  - first:
+      74: -5943989046539699967
+    second: Null_2_37|Cube_3_63|C4D Animation Take|Layer0
+  - first:
+      74: -5001544135260157387
+    second: Null_2_37|Cube_3_64|C4D Animation Take|Layer0
+  - first:
+      74: 2732419311094076513
+    second: Null_2_37|Cube_3_65|C4D Animation Take|Layer0
+  - first:
+      74: 7566406007228446014
+    second: Null_2_37|Cube_3_66|C4D Animation Take|Layer0
+  - first:
+      74: 6446946402272937790
+    second: Null_2_37|Cube_3_67|C4D Animation Take|Layer0
+  - first:
+      74: 6113410048018486200
+    second: Null_2_37|Cube_3_68|C4D Animation Take|Layer0
+  - first:
+      74: 176453620141596018
+    second: Null_2_37|Cube_3_69|C4D Animation Take|Layer0
+  - first:
+      74: -6510381128199735033
+    second: Null_2_37|Cube_3_70|C4D Animation Take|Layer0
+  - first:
+      74: -2096531801693078751
+    second: Null_2_37|Cube_3_71|C4D Animation Take|Layer0
+  - first:
+      74: -2339449374975813448
+    second: Null_2_37|Cube_3_89|C4D Animation Take|Layer0
+  - first:
+      74: -7663057307136203876
+    second: Null_2_37|Cube_3_90|C4D Animation Take|Layer0
+  - first:
+      74: 7344904757213542201
+    second: Null_2_37|Cube_3_91|C4D Animation Take|Layer0
+  - first:
+      74: 3511849347875495844
+    second: Null_2_37|Cube_4_13|C4D Animation Take|Layer0
+  - first:
+      74: 4772408181317760745
+    second: Null_2_37|Cube_4_14|C4D Animation Take|Layer0
+  - first:
+      74: 7396761447528583622
+    second: Null_2_37|Cube_4_15|C4D Animation Take|Layer0
+  - first:
+      74: 7689422609771652365
+    second: Null_2_37|Cube_4_16|C4D Animation Take|Layer0
+  - first:
+      74: -4649581574799135207
+    second: Null_2_37|Cube_4_17|C4D Animation Take|Layer0
+  - first:
+      74: -7731623130269466387
+    second: Null_2_37|Cube_4_18|C4D Animation Take|Layer0
+  - first:
+      74: 7452661778751792151
+    second: Null_2_37|Cube_4_19|C4D Animation Take|Layer0
+  - first:
+      74: -5854732508637106498
+    second: Null_2_37|Cube_4_20|C4D Animation Take|Layer0
+  - first:
+      74: 1783362515816487989
+    second: Null_2_37|Cube_4_21|C4D Animation Take|Layer0
+  - first:
+      74: -7018955061162700285
+    second: Null_2_37|Cube_4_22|C4D Animation Take|Layer0
+  - first:
+      74: 3015572080803637162
+    second: Null_2_37|Cube_4_23|C4D Animation Take|Layer0
+  - first:
+      74: 4115939579878018303
+    second: Null_2_37|Cube_4_24|C4D Animation Take|Layer0
+  - first:
+      74: -3737565927448409222
+    second: Null_2_37|Cube_4_42|C4D Animation Take|Layer0
+  - first:
+      74: 3099027160342911380
+    second: Null_2_37|Cube_4_43|C4D Animation Take|Layer0
+  - first:
+      74: -2286713417845240650
+    second: Null_2_37|Cube_4_44|C4D Animation Take|Layer0
+  - first:
+      74: 2521023064985975587
+    second: Null_2_37|Cube_4_60|C4D Animation Take|Layer0
+  - first:
+      74: -3226064769992265347
+    second: Null_2_37|Cube_4_61|C4D Animation Take|Layer0
+  - first:
+      74: -2128145144965566753
+    second: Null_2_37|Cube_4_62|C4D Animation Take|Layer0
+  - first:
+      74: -4235358184878849441
+    second: Null_2_37|Cube_4_63|C4D Animation Take|Layer0
+  - first:
+      74: 3415147274584421406
+    second: Null_2_37|Cube_4_64|C4D Animation Take|Layer0
+  - first:
+      74: -8693245343444067179
+    second: Null_2_37|Cube_4_65|C4D Animation Take|Layer0
+  - first:
+      74: -8885401910708250822
+    second: Null_2_37|Cube_4_66|C4D Animation Take|Layer0
+  - first:
+      74: 5990540723349249896
+    second: Null_2_37|Cube_4_67|C4D Animation Take|Layer0
+  - first:
+      74: -546020243507267625
+    second: Null_2_37|Cube_4_68|C4D Animation Take|Layer0
+  - first:
+      74: 3048965217514448943
+    second: Null_2_37|Cube_4_69|C4D Animation Take|Layer0
+  - first:
+      74: -3136367632178737007
+    second: Null_2_37|Cube_4_70|C4D Animation Take|Layer0
+  - first:
+      74: -9024314275709113068
+    second: Null_2_37|Cube_4_71|C4D Animation Take|Layer0
+  - first:
+      74: 2249309316892289051
+    second: Null_2_37|Cube_4_89|C4D Animation Take|Layer0
+  - first:
+      74: -2494152523166979166
+    second: Null_2_37|Cube_4_90|C4D Animation Take|Layer0
+  - first:
+      74: 2627747433253601425
+    second: Null_2_37|Cube_4_91|C4D Animation Take|Layer0
+  - first:
+      74: -7566454922613041789
+    second: Null_2_37|Cube_53|C4D Animation Take|Layer0
+  - first:
+      74: 7694279014234876546
+    second: Null_2_37|Cube_86|C4D Animation Take|Layer0
+  - first:
+      74: -6874042785758792676
+    second: Null_2_37|Extrude_1_35|C4D Animation Take|Layer0
+  - first:
+      74: 8824780304265576714
+    second: Null_2_37|Extrude_1_82|C4D Animation Take|Layer0
+  - first:
+      74: 680013038079335062
+    second: Null_2_37|Extrude_2_35|C4D Animation Take|Layer0
+  - first:
+      74: -3849318159353168302
+    second: Null_2_37|Extrude_2_87|C4D Animation Take|Layer0
+  - first:
+      74: 2680005702822439805
+    second: Null_2_37|Extrude_3_53|C4D Animation Take|Layer0
+  - first:
+      74: -5011525663071026979
+    second: Null_2_37|Extrude_3_6|C4D Animation Take|Layer0
+  - first:
+      74: -8167197231633575655
+    second: Null_2_37|Extrude_4_53|C4D Animation Take|Layer0
+  - first:
+      74: -8622933353391000536
+    second: Null_2_37|Extrude_4_6|C4D Animation Take|Layer0
+  - first:
+      74: 1259244183172687590
+    second: Null_2_37|Null_1_25_2|C4D Animation Take|Layer0
+  - first:
+      74: -2165924173489837676
+    second: Null_2_37|Null_1_25|C4D Animation Take|Layer0
+  - first:
+      74: -7638200002267147797
+    second: Null_2_37|Null_1_28_2|C4D Animation Take|Layer0
+  - first:
+      74: 1511570503428068269
+    second: Null_2_37|Null_1_28|C4D Animation Take|Layer0
+  - first:
+      74: -7363289283344143346
+    second: Null_2_37|Null_1_33_2|C4D Animation Take|Layer0
+  - first:
+      74: 2688001251051599929
+    second: Null_2_37|Null_1_33|C4D Animation Take|Layer0
+  - first:
+      74: 8858304081534861399
+    second: Null_2_37|Null_1_38_2|C4D Animation Take|Layer0
+  - first:
+      74: 938207157329945027
+    second: Null_2_37|Null_1_38|C4D Animation Take|Layer0
+  - first:
+      74: -1452541546087396058
+    second: Null_2_37|Null_1_43_2|C4D Animation Take|Layer0
+  - first:
+      74: -7900318160876995736
+    second: Null_2_37|Null_1_43|C4D Animation Take|Layer0
+  - first:
+      74: -1954388952112905293
+    second: Null_2_37|Null_2_37|C4D Animation Take|Layer0
+  - first:
+      74: 6526450490301051225
+    second: Null_2_37|Null_2_85|C4D Animation Take|Layer0
+  - first:
+      74: -367779538192698786
+    second: Null_2_37|Tube_3_4|C4D Animation Take|Layer0
+  - first:
+      74: -5383007367208777541
+    second: "Null_1_33|Bra\xE7o_2|C4D Animation Take|Layer0"
+  - first:
+      74: -8125280181906341243
+    second: "Null_1_33|Bra\xE7o|C4D Animation Take|Layer0"
+  - first:
+      74: 5413282569262387630
+    second: Null_1_33|Cube_100|C4D Animation Take|Layer0
+  - first:
+      74: -8212561257903331826
+    second: Null_1_33|Cube_1_35|C4D Animation Take|Layer0
+  - first:
+      74: 8467375840627826873
+    second: Null_1_33|Cube_1_49|C4D Animation Take|Layer0
+  - first:
+      74: -7213856335586478666
+    second: Null_1_33|Cube_1_82|C4D Animation Take|Layer0
+  - first:
+      74: -6205765205778820734
+    second: Null_1_33|Cube_1_96|C4D Animation Take|Layer0
+  - first:
+      74: -2883878034226060964
+    second: Null_1_33|Cube_2_30|C4D Animation Take|Layer0
+  - first:
+      74: -4546020592503727264
+    second: Null_1_33|Cube_2_44|C4D Animation Take|Layer0
+  - first:
+      74: -9189154859731994917
+    second: Null_1_33|Cube_2_77|C4D Animation Take|Layer0
+  - first:
+      74: 9059918929356994375
+    second: Null_1_33|Cube_2_91|C4D Animation Take|Layer0
+  - first:
+      74: -6070977698507023725
+    second: Null_1_33|Cube_39|C4D Animation Take|Layer0
+  - first:
+      74: 7251452264292729650
+    second: Null_1_33|Cube_3_13|C4D Animation Take|Layer0
+  - first:
+      74: 829071489321415087
+    second: Null_1_33|Cube_3_14|C4D Animation Take|Layer0
+  - first:
+      74: 3200746606623859383
+    second: Null_1_33|Cube_3_15|C4D Animation Take|Layer0
+  - first:
+      74: -3819990069093500345
+    second: Null_1_33|Cube_3_16|C4D Animation Take|Layer0
+  - first:
+      74: 3674251009818109452
+    second: Null_1_33|Cube_3_17|C4D Animation Take|Layer0
+  - first:
+      74: 1413490668185085538
+    second: Null_1_33|Cube_3_18|C4D Animation Take|Layer0
+  - first:
+      74: -8127097465665619864
+    second: Null_1_33|Cube_3_19|C4D Animation Take|Layer0
+  - first:
+      74: -3526368005613626419
+    second: Null_1_33|Cube_3_20|C4D Animation Take|Layer0
+  - first:
+      74: 5538260101299424906
+    second: Null_1_33|Cube_3_21|C4D Animation Take|Layer0
+  - first:
+      74: -4939459738724474694
+    second: Null_1_33|Cube_3_22|C4D Animation Take|Layer0
+  - first:
+      74: -5999282522299656492
+    second: Null_1_33|Cube_3_23|C4D Animation Take|Layer0
+  - first:
+      74: -3699053390246967379
+    second: Null_1_33|Cube_3_24|C4D Animation Take|Layer0
+  - first:
+      74: 1294513316354471536
+    second: Null_1_33|Cube_3_42|C4D Animation Take|Layer0
+  - first:
+      74: -7102108180651695198
+    second: Null_1_33|Cube_3_43|C4D Animation Take|Layer0
+  - first:
+      74: 7538319683792163336
+    second: Null_1_33|Cube_3_44|C4D Animation Take|Layer0
+  - first:
+      74: -6051967477671000070
+    second: Null_1_33|Cube_3_60|C4D Animation Take|Layer0
+  - first:
+      74: 6451746372483104899
+    second: Null_1_33|Cube_3_61|C4D Animation Take|Layer0
+  - first:
+      74: -4556408769616686710
+    second: Null_1_33|Cube_3_62|C4D Animation Take|Layer0
+  - first:
+      74: -3228309087497273375
+    second: Null_1_33|Cube_3_63|C4D Animation Take|Layer0
+  - first:
+      74: -6213135512470865342
+    second: Null_1_33|Cube_3_64|C4D Animation Take|Layer0
+  - first:
+      74: -1480409669692469225
+    second: Null_1_33|Cube_3_65|C4D Animation Take|Layer0
+  - first:
+      74: -2446782103052891302
+    second: Null_1_33|Cube_3_66|C4D Animation Take|Layer0
+  - first:
+      74: -3285961018130388838
+    second: Null_1_33|Cube_3_67|C4D Animation Take|Layer0
+  - first:
+      74: 7131158519703295278
+    second: Null_1_33|Cube_3_68|C4D Animation Take|Layer0
+  - first:
+      74: -6905095908957734199
+    second: Null_1_33|Cube_3_69|C4D Animation Take|Layer0
+  - first:
+      74: 4038008915222131213
+    second: Null_1_33|Cube_3_70|C4D Animation Take|Layer0
+  - first:
+      74: 2765873172971035649
+    second: Null_1_33|Cube_3_71|C4D Animation Take|Layer0
+  - first:
+      74: 5931184345850779995
+    second: Null_1_33|Cube_3_89|C4D Animation Take|Layer0
+  - first:
+      74: -6598322158479220817
+    second: Null_1_33|Cube_3_90|C4D Animation Take|Layer0
+  - first:
+      74: 1579765544924232760
+    second: Null_1_33|Cube_3_91|C4D Animation Take|Layer0
+  - first:
+      74: -5748058510634297883
+    second: Null_1_33|Cube_4_13|C4D Animation Take|Layer0
+  - first:
+      74: -7654049229362858414
+    second: Null_1_33|Cube_4_14|C4D Animation Take|Layer0
+  - first:
+      74: 5514265134060665658
+    second: Null_1_33|Cube_4_15|C4D Animation Take|Layer0
+  - first:
+      74: 4827503548336255934
+    second: Null_1_33|Cube_4_16|C4D Animation Take|Layer0
+  - first:
+      74: -289281710963095370
+    second: Null_1_33|Cube_4_17|C4D Animation Take|Layer0
+  - first:
+      74: 3358676152725416265
+    second: Null_1_33|Cube_4_18|C4D Animation Take|Layer0
+  - first:
+      74: 8439911323445727769
+    second: Null_1_33|Cube_4_19|C4D Animation Take|Layer0
+  - first:
+      74: 2921133471574690752
+    second: Null_1_33|Cube_4_20|C4D Animation Take|Layer0
+  - first:
+      74: 4476247978295509294
+    second: Null_1_33|Cube_4_21|C4D Animation Take|Layer0
+  - first:
+      74: 1191184158604224591
+    second: Null_1_33|Cube_4_22|C4D Animation Take|Layer0
+  - first:
+      74: 2917024695737281709
+    second: Null_1_33|Cube_4_23|C4D Animation Take|Layer0
+  - first:
+      74: 4819246448399747736
+    second: Null_1_33|Cube_4_24|C4D Animation Take|Layer0
+  - first:
+      74: 3797179200779039950
+    second: Null_1_33|Cube_4_42|C4D Animation Take|Layer0
+  - first:
+      74: -6144295786081875293
+    second: Null_1_33|Cube_4_43|C4D Animation Take|Layer0
+  - first:
+      74: -3934579100023202128
+    second: Null_1_33|Cube_4_44|C4D Animation Take|Layer0
+  - first:
+      74: -3172866576262025545
+    second: Null_1_33|Cube_4_60|C4D Animation Take|Layer0
+  - first:
+      74: 4074853796812380946
+    second: Null_1_33|Cube_4_61|C4D Animation Take|Layer0
+  - first:
+      74: -8870789240539627510
+    second: Null_1_33|Cube_4_62|C4D Animation Take|Layer0
+  - first:
+      74: -658545708666156355
+    second: Null_1_33|Cube_4_63|C4D Animation Take|Layer0
+  - first:
+      74: -1116154553831899896
+    second: Null_1_33|Cube_4_64|C4D Animation Take|Layer0
+  - first:
+      74: -92455230071415790
+    second: Null_1_33|Cube_4_65|C4D Animation Take|Layer0
+  - first:
+      74: -4223306106203472933
+    second: Null_1_33|Cube_4_66|C4D Animation Take|Layer0
+  - first:
+      74: -8953363187680827589
+    second: Null_1_33|Cube_4_67|C4D Animation Take|Layer0
+  - first:
+      74: 2037890738771982045
+    second: Null_1_33|Cube_4_68|C4D Animation Take|Layer0
+  - first:
+      74: 2609402112398034371
+    second: Null_1_33|Cube_4_69|C4D Animation Take|Layer0
+  - first:
+      74: -5537307088851855997
+    second: Null_1_33|Cube_4_70|C4D Animation Take|Layer0
+  - first:
+      74: -3381472356481036592
+    second: Null_1_33|Cube_4_71|C4D Animation Take|Layer0
+  - first:
+      74: 2908591970962260949
+    second: Null_1_33|Cube_4_89|C4D Animation Take|Layer0
+  - first:
+      74: -2854546198973724009
+    second: Null_1_33|Cube_4_90|C4D Animation Take|Layer0
+  - first:
+      74: -6528717973458557910
+    second: Null_1_33|Cube_4_91|C4D Animation Take|Layer0
+  - first:
+      74: -1333437414460966111
+    second: Null_1_33|Cube_53|C4D Animation Take|Layer0
+  - first:
+      74: -1770447245788593668
+    second: Null_1_33|Cube_86|C4D Animation Take|Layer0
+  - first:
+      74: 2147000545557489092
+    second: Null_1_33|Extrude_1_35|C4D Animation Take|Layer0
+  - first:
+      74: 4565028685921759845
+    second: Null_1_33|Extrude_1_82|C4D Animation Take|Layer0
+  - first:
+      74: 8572776658544268612
+    second: Null_1_33|Extrude_2_35|C4D Animation Take|Layer0
+  - first:
+      74: 4939307240878101197
+    second: Null_1_33|Extrude_2_87|C4D Animation Take|Layer0
+  - first:
+      74: 192339691212192468
+    second: Null_1_33|Extrude_3_53|C4D Animation Take|Layer0
+  - first:
+      74: 7175311513254629735
+    second: Null_1_33|Extrude_3_6|C4D Animation Take|Layer0
+  - first:
+      74: -6745786258952368431
+    second: Null_1_33|Extrude_4_53|C4D Animation Take|Layer0
+  - first:
+      74: 6573484748052405123
+    second: Null_1_33|Extrude_4_6|C4D Animation Take|Layer0
+  - first:
+      74: -3200588142803922517
+    second: Null_1_33|Null_1_25_2|C4D Animation Take|Layer0
+  - first:
+      74: -8864208116789512586
+    second: Null_1_33|Null_1_25|C4D Animation Take|Layer0
+  - first:
+      74: 3877536043063214084
+    second: Null_1_33|Null_1_28_2|C4D Animation Take|Layer0
+  - first:
+      74: -2115798761538083446
+    second: Null_1_33|Null_1_28|C4D Animation Take|Layer0
+  - first:
+      74: -2360559842220753167
+    second: Null_1_33|Null_1_33_2|C4D Animation Take|Layer0
+  - first:
+      74: -7469604473648979558
+    second: Null_1_33|Null_1_33|C4D Animation Take|Layer0
+  - first:
+      74: 6263516411811849949
+    second: Null_1_33|Null_1_38_2|C4D Animation Take|Layer0
+  - first:
+      74: -1853589694106047617
+    second: Null_1_33|Null_1_38|C4D Animation Take|Layer0
+  - first:
+      74: 4576399911470839994
+    second: Null_1_33|Null_1_43_2|C4D Animation Take|Layer0
+  - first:
+      74: -7100777513274807739
+    second: Null_1_33|Null_1_43|C4D Animation Take|Layer0
+  - first:
+      74: 5063659975911687738
+    second: Null_1_33|Null_2_37|C4D Animation Take|Layer0
+  - first:
+      74: 2916047615659525899
+    second: Null_1_33|Null_2_85|C4D Animation Take|Layer0
+  - first:
+      74: -8312864119690483870
+    second: Null_1_33|Tube_3_4|C4D Animation Take|Layer0
+  - first:
+      74: -4398646892992696978
+    second: "Null_1_38|Bra\xE7o_2|C4D Animation Take|Layer0"
+  - first:
+      74: 8168048696887183423
+    second: "Null_1_38|Bra\xE7o|C4D Animation Take|Layer0"
+  - first:
+      74: -1053919973872663761
+    second: Null_1_38|Cube_100|C4D Animation Take|Layer0
+  - first:
+      74: 1255889942623960285
+    second: Null_1_38|Cube_1_35|C4D Animation Take|Layer0
+  - first:
+      74: 7394816371150030574
+    second: Null_1_38|Cube_1_49|C4D Animation Take|Layer0
+  - first:
+      74: 8482204682137620011
+    second: Null_1_38|Cube_1_82|C4D Animation Take|Layer0
+  - first:
+      74: 2347893735974229167
+    second: Null_1_38|Cube_1_96|C4D Animation Take|Layer0
+  - first:
+      74: 7634962204497786334
+    second: Null_1_38|Cube_2_30|C4D Animation Take|Layer0
+  - first:
+      74: -2555648800071947569
+    second: Null_1_38|Cube_2_44|C4D Animation Take|Layer0
+  - first:
+      74: 3868255415353684819
+    second: Null_1_38|Cube_2_77|C4D Animation Take|Layer0
+  - first:
+      74: -6503222093582498543
+    second: Null_1_38|Cube_2_91|C4D Animation Take|Layer0
+  - first:
+      74: 79077336532907999
+    second: Null_1_38|Cube_39|C4D Animation Take|Layer0
+  - first:
+      74: -7894814481124223445
+    second: Null_1_38|Cube_3_13|C4D Animation Take|Layer0
+  - first:
+      74: 5773736935079972867
+    second: Null_1_38|Cube_3_14|C4D Animation Take|Layer0
+  - first:
+      74: 2656166600903913826
+    second: Null_1_38|Cube_3_15|C4D Animation Take|Layer0
+  - first:
+      74: 5927422371859777032
+    second: Null_1_38|Cube_3_16|C4D Animation Take|Layer0
+  - first:
+      74: -487332014903090229
+    second: Null_1_38|Cube_3_17|C4D Animation Take|Layer0
+  - first:
+      74: 3562113079871424449
+    second: Null_1_38|Cube_3_18|C4D Animation Take|Layer0
+  - first:
+      74: 5857620865080364162
+    second: Null_1_38|Cube_3_19|C4D Animation Take|Layer0
+  - first:
+      74: 3820276737448402824
+    second: Null_1_38|Cube_3_20|C4D Animation Take|Layer0
+  - first:
+      74: 1990685553773176358
+    second: Null_1_38|Cube_3_21|C4D Animation Take|Layer0
+  - first:
+      74: -617122544863516033
+    second: Null_1_38|Cube_3_22|C4D Animation Take|Layer0
+  - first:
+      74: -8725831820020675728
+    second: Null_1_38|Cube_3_23|C4D Animation Take|Layer0
+  - first:
+      74: -9053115058270081174
+    second: Null_1_38|Cube_3_24|C4D Animation Take|Layer0
+  - first:
+      74: 8946557940973088627
+    second: Null_1_38|Cube_3_42|C4D Animation Take|Layer0
+  - first:
+      74: -5360338920596598729
+    second: Null_1_38|Cube_3_43|C4D Animation Take|Layer0
+  - first:
+      74: 3296482800830066753
+    second: Null_1_38|Cube_3_44|C4D Animation Take|Layer0
+  - first:
+      74: -8184825872472102491
+    second: Null_1_38|Cube_3_60|C4D Animation Take|Layer0
+  - first:
+      74: -677460482496997679
+    second: Null_1_38|Cube_3_61|C4D Animation Take|Layer0
+  - first:
+      74: -644228486993381239
+    second: Null_1_38|Cube_3_62|C4D Animation Take|Layer0
+  - first:
+      74: -7796672644174503453
+    second: Null_1_38|Cube_3_63|C4D Animation Take|Layer0
+  - first:
+      74: 1068519706931574457
+    second: Null_1_38|Cube_3_64|C4D Animation Take|Layer0
+  - first:
+      74: 7034042207824667011
+    second: Null_1_38|Cube_3_65|C4D Animation Take|Layer0
+  - first:
+      74: -1645553719336914843
+    second: Null_1_38|Cube_3_66|C4D Animation Take|Layer0
+  - first:
+      74: -6825670661657909634
+    second: Null_1_38|Cube_3_67|C4D Animation Take|Layer0
+  - first:
+      74: -383282956741816843
+    second: Null_1_38|Cube_3_68|C4D Animation Take|Layer0
+  - first:
+      74: -8439239847529549833
+    second: Null_1_38|Cube_3_69|C4D Animation Take|Layer0
+  - first:
+      74: -3806411082628073053
+    second: Null_1_38|Cube_3_70|C4D Animation Take|Layer0
+  - first:
+      74: -2949195239173172216
+    second: Null_1_38|Cube_3_71|C4D Animation Take|Layer0
+  - first:
+      74: 970284585139105781
+    second: Null_1_38|Cube_3_89|C4D Animation Take|Layer0
+  - first:
+      74: -489542159513518639
+    second: Null_1_38|Cube_3_90|C4D Animation Take|Layer0
+  - first:
+      74: 963402423113768312
+    second: Null_1_38|Cube_3_91|C4D Animation Take|Layer0
+  - first:
+      74: -5171067357113451594
+    second: Null_1_38|Cube_4_13|C4D Animation Take|Layer0
+  - first:
+      74: 8318949512674330372
+    second: Null_1_38|Cube_4_14|C4D Animation Take|Layer0
+  - first:
+      74: -92044769768414415
+    second: Null_1_38|Cube_4_15|C4D Animation Take|Layer0
+  - first:
+      74: 7072828349560333642
+    second: Null_1_38|Cube_4_16|C4D Animation Take|Layer0
+  - first:
+      74: -3549521798458241215
+    second: Null_1_38|Cube_4_17|C4D Animation Take|Layer0
+  - first:
+      74: -2537751341847442946
+    second: Null_1_38|Cube_4_18|C4D Animation Take|Layer0
+  - first:
+      74: 2894093158328714739
+    second: Null_1_38|Cube_4_19|C4D Animation Take|Layer0
+  - first:
+      74: -4248415602810767106
+    second: Null_1_38|Cube_4_20|C4D Animation Take|Layer0
+  - first:
+      74: 4535992488034063221
+    second: Null_1_38|Cube_4_21|C4D Animation Take|Layer0
+  - first:
+      74: 7550559389014237536
+    second: Null_1_38|Cube_4_22|C4D Animation Take|Layer0
+  - first:
+      74: -994506704856278286
+    second: Null_1_38|Cube_4_23|C4D Animation Take|Layer0
+  - first:
+      74: 3323156382684436326
+    second: Null_1_38|Cube_4_24|C4D Animation Take|Layer0
+  - first:
+      74: 7825879068996340024
+    second: Null_1_38|Cube_4_42|C4D Animation Take|Layer0
+  - first:
+      74: -9073707397513603370
+    second: Null_1_38|Cube_4_43|C4D Animation Take|Layer0
+  - first:
+      74: 2626777302823403223
+    second: Null_1_38|Cube_4_44|C4D Animation Take|Layer0
+  - first:
+      74: 1486686824187812579
+    second: Null_1_38|Cube_4_60|C4D Animation Take|Layer0
+  - first:
+      74: 4499023048231195403
+    second: Null_1_38|Cube_4_61|C4D Animation Take|Layer0
+  - first:
+      74: -6114382927838724452
+    second: Null_1_38|Cube_4_62|C4D Animation Take|Layer0
+  - first:
+      74: 8261468663012788742
+    second: Null_1_38|Cube_4_63|C4D Animation Take|Layer0
+  - first:
+      74: -2826751660142232765
+    second: Null_1_38|Cube_4_64|C4D Animation Take|Layer0
+  - first:
+      74: 7534806500688721769
+    second: Null_1_38|Cube_4_65|C4D Animation Take|Layer0
+  - first:
+      74: 6787108645532466410
+    second: Null_1_38|Cube_4_66|C4D Animation Take|Layer0
+  - first:
+      74: 6246272291110176452
+    second: Null_1_38|Cube_4_67|C4D Animation Take|Layer0
+  - first:
+      74: -8184902292027589346
+    second: Null_1_38|Cube_4_68|C4D Animation Take|Layer0
+  - first:
+      74: 4636813509846278308
+    second: Null_1_38|Cube_4_69|C4D Animation Take|Layer0
+  - first:
+      74: -7329263789334223594
+    second: Null_1_38|Cube_4_70|C4D Animation Take|Layer0
+  - first:
+      74: -1197410278690608945
+    second: Null_1_38|Cube_4_71|C4D Animation Take|Layer0
+  - first:
+      74: -672097611495818947
+    second: Null_1_38|Cube_4_89|C4D Animation Take|Layer0
+  - first:
+      74: 8314141885834557644
+    second: Null_1_38|Cube_4_90|C4D Animation Take|Layer0
+  - first:
+      74: -2735455599577315837
+    second: Null_1_38|Cube_4_91|C4D Animation Take|Layer0
+  - first:
+      74: -1555905484314674683
+    second: Null_1_38|Cube_53|C4D Animation Take|Layer0
+  - first:
+      74: 2290510777861670243
+    second: Null_1_38|Cube_86|C4D Animation Take|Layer0
+  - first:
+      74: 4425178826676579004
+    second: Null_1_38|Extrude_1_35|C4D Animation Take|Layer0
+  - first:
+      74: -62732676494801437
+    second: Null_1_38|Extrude_1_82|C4D Animation Take|Layer0
+  - first:
+      74: -1724866030627767689
+    second: Null_1_38|Extrude_2_35|C4D Animation Take|Layer0
+  - first:
+      74: -1014797997130115694
+    second: Null_1_38|Extrude_2_87|C4D Animation Take|Layer0
+  - first:
+      74: 9026353682960211075
+    second: Null_1_38|Extrude_3_53|C4D Animation Take|Layer0
+  - first:
+      74: -5502939650696707793
+    second: Null_1_38|Extrude_3_6|C4D Animation Take|Layer0
+  - first:
+      74: -3366917969698993964
+    second: Null_1_38|Extrude_4_53|C4D Animation Take|Layer0
+  - first:
+      74: -7197292114783020952
+    second: Null_1_38|Extrude_4_6|C4D Animation Take|Layer0
+  - first:
+      74: 2259896164894858533
+    second: Null_1_38|Null_1_25_2|C4D Animation Take|Layer0
+  - first:
+      74: -3369961339452673968
+    second: Null_1_38|Null_1_25|C4D Animation Take|Layer0
+  - first:
+      74: 7947658945664168487
+    second: Null_1_38|Null_1_28_2|C4D Animation Take|Layer0
+  - first:
+      74: -5032119963765198653
+    second: Null_1_38|Null_1_28|C4D Animation Take|Layer0
+  - first:
+      74: -635271352189428221
+    second: Null_1_38|Null_1_33_2|C4D Animation Take|Layer0
+  - first:
+      74: 3722981403570014479
+    second: Null_1_38|Null_1_33|C4D Animation Take|Layer0
+  - first:
+      74: 2464788340836404794
+    second: Null_1_38|Null_1_38_2|C4D Animation Take|Layer0
+  - first:
+      74: 4265566271847705427
+    second: Null_1_38|Null_1_38|C4D Animation Take|Layer0
+  - first:
+      74: -4853691504120488774
+    second: Null_1_38|Null_1_43_2|C4D Animation Take|Layer0
+  - first:
+      74: 6788734580442179242
+    second: Null_1_38|Null_1_43|C4D Animation Take|Layer0
+  - first:
+      74: 5877029327481697815
+    second: Null_1_38|Null_2_37|C4D Animation Take|Layer0
+  - first:
+      74: -6605917103838350590
+    second: Null_1_38|Null_2_85|C4D Animation Take|Layer0
+  - first:
+      74: 1666256654215907319
+    second: Null_1_38|Tube_3_4|C4D Animation Take|Layer0
+  - first:
+      74: -1196863712109984808
+    second: "Null_1_43|Bra\xE7o_2|C4D Animation Take|Layer0"
+  - first:
+      74: -4588893662208804977
+    second: "Null_1_43|Bra\xE7o|C4D Animation Take|Layer0"
+  - first:
+      74: 6860740313200679667
+    second: Null_1_43|Cube_100|C4D Animation Take|Layer0
+  - first:
+      74: 2547769677393578561
+    second: Null_1_43|Cube_1_35|C4D Animation Take|Layer0
+  - first:
+      74: -4336083244949806017
+    second: Null_1_43|Cube_1_49|C4D Animation Take|Layer0
+  - first:
+      74: -4652665387581044759
+    second: Null_1_43|Cube_1_82|C4D Animation Take|Layer0
+  - first:
+      74: 5407040855827904604
+    second: Null_1_43|Cube_1_96|C4D Animation Take|Layer0
+  - first:
+      74: -5296958469210218755
+    second: Null_1_43|Cube_2_30|C4D Animation Take|Layer0
+  - first:
+      74: 6622768313779472919
+    second: Null_1_43|Cube_2_44|C4D Animation Take|Layer0
+  - first:
+      74: -5254638101871646949
+    second: Null_1_43|Cube_2_77|C4D Animation Take|Layer0
+  - first:
+      74: 2124803583584099349
+    second: Null_1_43|Cube_2_91|C4D Animation Take|Layer0
+  - first:
+      74: -4717751759408071517
+    second: Null_1_43|Cube_39|C4D Animation Take|Layer0
+  - first:
+      74: 8858632273996438586
+    second: Null_1_43|Cube_3_13|C4D Animation Take|Layer0
+  - first:
+      74: -8539211561280336980
+    second: Null_1_43|Cube_3_14|C4D Animation Take|Layer0
+  - first:
+      74: -40323725682238320
+    second: Null_1_43|Cube_3_15|C4D Animation Take|Layer0
+  - first:
+      74: 6658854277328371352
+    second: Null_1_43|Cube_3_16|C4D Animation Take|Layer0
+  - first:
+      74: 4763580582971883781
+    second: Null_1_43|Cube_3_17|C4D Animation Take|Layer0
+  - first:
+      74: 8642311336242836993
+    second: Null_1_43|Cube_3_18|C4D Animation Take|Layer0
+  - first:
+      74: 5411399299690033389
+    second: Null_1_43|Cube_3_19|C4D Animation Take|Layer0
+  - first:
+      74: 5198653300103475987
+    second: Null_1_43|Cube_3_20|C4D Animation Take|Layer0
+  - first:
+      74: -3538128141524327660
+    second: Null_1_43|Cube_3_21|C4D Animation Take|Layer0
+  - first:
+      74: -6996460177269968012
+    second: Null_1_43|Cube_3_22|C4D Animation Take|Layer0
+  - first:
+      74: 7540826749996900793
+    second: Null_1_43|Cube_3_23|C4D Animation Take|Layer0
+  - first:
+      74: -788921039327090720
+    second: Null_1_43|Cube_3_24|C4D Animation Take|Layer0
+  - first:
+      74: 4572535756673441255
+    second: Null_1_43|Cube_3_42|C4D Animation Take|Layer0
+  - first:
+      74: -828812141830381428
+    second: Null_1_43|Cube_3_43|C4D Animation Take|Layer0
+  - first:
+      74: -8046866444381966529
+    second: Null_1_43|Cube_3_44|C4D Animation Take|Layer0
+  - first:
+      74: -6087452537661236943
+    second: Null_1_43|Cube_3_60|C4D Animation Take|Layer0
+  - first:
+      74: 249445094673791747
+    second: Null_1_43|Cube_3_61|C4D Animation Take|Layer0
+  - first:
+      74: 564633059248095337
+    second: Null_1_43|Cube_3_62|C4D Animation Take|Layer0
+  - first:
+      74: 6010247867153143617
+    second: Null_1_43|Cube_3_63|C4D Animation Take|Layer0
+  - first:
+      74: 2431288084615554237
+    second: Null_1_43|Cube_3_64|C4D Animation Take|Layer0
+  - first:
+      74: 8975745566895819385
+    second: Null_1_43|Cube_3_65|C4D Animation Take|Layer0
+  - first:
+      74: 4042426993879227123
+    second: Null_1_43|Cube_3_66|C4D Animation Take|Layer0
+  - first:
+      74: 1830754897994405393
+    second: Null_1_43|Cube_3_67|C4D Animation Take|Layer0
+  - first:
+      74: 8098040160155935504
+    second: Null_1_43|Cube_3_68|C4D Animation Take|Layer0
+  - first:
+      74: -7916835368089466999
+    second: Null_1_43|Cube_3_69|C4D Animation Take|Layer0
+  - first:
+      74: -5782316044444666702
+    second: Null_1_43|Cube_3_70|C4D Animation Take|Layer0
+  - first:
+      74: 3894247670402357543
+    second: Null_1_43|Cube_3_71|C4D Animation Take|Layer0
+  - first:
+      74: 7818305350876026966
+    second: Null_1_43|Cube_3_89|C4D Animation Take|Layer0
+  - first:
+      74: 3797745468078242447
+    second: Null_1_43|Cube_3_90|C4D Animation Take|Layer0
+  - first:
+      74: -7829124918710091552
+    second: Null_1_43|Cube_3_91|C4D Animation Take|Layer0
+  - first:
+      74: -8760776707422371517
+    second: Null_1_43|Cube_4_13|C4D Animation Take|Layer0
+  - first:
+      74: -8443592205174383030
+    second: Null_1_43|Cube_4_14|C4D Animation Take|Layer0
+  - first:
+      74: -473203264787233320
+    second: Null_1_43|Cube_4_15|C4D Animation Take|Layer0
+  - first:
+      74: 5114169928534904607
+    second: Null_1_43|Cube_4_16|C4D Animation Take|Layer0
+  - first:
+      74: -274565613697567913
+    second: Null_1_43|Cube_4_17|C4D Animation Take|Layer0
+  - first:
+      74: -6947979880991446974
+    second: Null_1_43|Cube_4_18|C4D Animation Take|Layer0
+  - first:
+      74: -170582113433810258
+    second: Null_1_43|Cube_4_19|C4D Animation Take|Layer0
+  - first:
+      74: -9021872181187361673
+    second: Null_1_43|Cube_4_20|C4D Animation Take|Layer0
+  - first:
+      74: -9136236551111428650
+    second: Null_1_43|Cube_4_21|C4D Animation Take|Layer0
+  - first:
+      74: -358224147198431740
+    second: Null_1_43|Cube_4_22|C4D Animation Take|Layer0
+  - first:
+      74: -64216833543918492
+    second: Null_1_43|Cube_4_23|C4D Animation Take|Layer0
+  - first:
+      74: 7214609634141466667
+    second: Null_1_43|Cube_4_24|C4D Animation Take|Layer0
+  - first:
+      74: -5104097116733679097
+    second: Null_1_43|Cube_4_42|C4D Animation Take|Layer0
+  - first:
+      74: -6118302909188420455
+    second: Null_1_43|Cube_4_43|C4D Animation Take|Layer0
+  - first:
+      74: -7934773376047539791
+    second: Null_1_43|Cube_4_44|C4D Animation Take|Layer0
+  - first:
+      74: 244904709199674954
+    second: Null_1_43|Cube_4_60|C4D Animation Take|Layer0
+  - first:
+      74: 3205860337827274605
+    second: Null_1_43|Cube_4_61|C4D Animation Take|Layer0
+  - first:
+      74: 9142025030405686824
+    second: Null_1_43|Cube_4_62|C4D Animation Take|Layer0
+  - first:
+      74: -2628303323356158821
+    second: Null_1_43|Cube_4_63|C4D Animation Take|Layer0
+  - first:
+      74: -3619082353507263725
+    second: Null_1_43|Cube_4_64|C4D Animation Take|Layer0
+  - first:
+      74: -553115451300470965
+    second: Null_1_43|Cube_4_65|C4D Animation Take|Layer0
+  - first:
+      74: -5743180849922907103
+    second: Null_1_43|Cube_4_66|C4D Animation Take|Layer0
+  - first:
+      74: -503331000632597690
+    second: Null_1_43|Cube_4_67|C4D Animation Take|Layer0
+  - first:
+      74: 4391491055096772291
+    second: Null_1_43|Cube_4_68|C4D Animation Take|Layer0
+  - first:
+      74: -2536951107047818210
+    second: Null_1_43|Cube_4_69|C4D Animation Take|Layer0
+  - first:
+      74: 3347272885895575592
+    second: Null_1_43|Cube_4_70|C4D Animation Take|Layer0
+  - first:
+      74: -3281843174253543785
+    second: Null_1_43|Cube_4_71|C4D Animation Take|Layer0
+  - first:
+      74: -1867286737180145460
+    second: Null_1_43|Cube_4_89|C4D Animation Take|Layer0
+  - first:
+      74: 3229490981401447241
+    second: Null_1_43|Cube_4_90|C4D Animation Take|Layer0
+  - first:
+      74: 494029996724574189
+    second: Null_1_43|Cube_4_91|C4D Animation Take|Layer0
+  - first:
+      74: 6547113671241018318
+    second: Null_1_43|Cube_53|C4D Animation Take|Layer0
+  - first:
+      74: 2005578744214309457
+    second: Null_1_43|Cube_86|C4D Animation Take|Layer0
+  - first:
+      74: 2184370495664223829
+    second: Null_1_43|Extrude_1_35|C4D Animation Take|Layer0
+  - first:
+      74: 1789203242355085803
+    second: Null_1_43|Extrude_1_82|C4D Animation Take|Layer0
+  - first:
+      74: 357143502032323267
+    second: Null_1_43|Extrude_2_35|C4D Animation Take|Layer0
+  - first:
+      74: 6866852470203411370
+    second: Null_1_43|Extrude_2_87|C4D Animation Take|Layer0
+  - first:
+      74: 7538575137661670891
+    second: Null_1_43|Extrude_3_53|C4D Animation Take|Layer0
+  - first:
+      74: 7101479009033237672
+    second: Null_1_43|Extrude_3_6|C4D Animation Take|Layer0
+  - first:
+      74: 8086961773552608587
+    second: Null_1_43|Extrude_4_53|C4D Animation Take|Layer0
+  - first:
+      74: 2763711785162831800
+    second: Null_1_43|Extrude_4_6|C4D Animation Take|Layer0
+  - first:
+      74: -7928450085476153484
+    second: Null_1_43|Null_1_25_2|C4D Animation Take|Layer0
+  - first:
+      74: 8833406946619950820
+    second: Null_1_43|Null_1_25|C4D Animation Take|Layer0
+  - first:
+      74: 2824303338524677868
+    second: Null_1_43|Null_1_28_2|C4D Animation Take|Layer0
+  - first:
+      74: -1699220658773844793
+    second: Null_1_43|Null_1_28|C4D Animation Take|Layer0
+  - first:
+      74: 1318477651034064884
+    second: Null_1_43|Null_1_33_2|C4D Animation Take|Layer0
+  - first:
+      74: -8114808383400467260
+    second: Null_1_43|Null_1_33|C4D Animation Take|Layer0
+  - first:
+      74: -8109265640620456825
+    second: Null_1_43|Null_1_38_2|C4D Animation Take|Layer0
+  - first:
+      74: -208001263942756999
+    second: Null_1_43|Null_1_38|C4D Animation Take|Layer0
+  - first:
+      74: -8001370802767889029
+    second: Null_1_43|Null_1_43_2|C4D Animation Take|Layer0
+  - first:
+      74: 1471279453499879903
+    second: Null_1_43|Null_1_43|C4D Animation Take|Layer0
+  - first:
+      74: -4484423709970955521
+    second: Null_1_43|Null_2_37|C4D Animation Take|Layer0
+  - first:
+      74: -6747727241093672985
+    second: Null_1_43|Null_2_85|C4D Animation Take|Layer0
+  - first:
+      74: -6854652603466689002
+    second: Null_1_43|Tube_3_4|C4D Animation Take|Layer0
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
