@@ -33,7 +33,7 @@ namespace Valve.VR.InteractionSystem
         private float arcTimeOffset = 0.0f;
         private float prevThickness = 0.0f;
         private int prevSegmentCount = 0;
-        private bool showArc = true;
+        private bool showArc { get; set; } = true;
         private Vector3 startPos;
         private Vector3 projectileVelocity;
         private bool useGravity = true;

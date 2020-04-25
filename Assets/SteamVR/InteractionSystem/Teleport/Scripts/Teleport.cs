@@ -38,6 +38,9 @@ namespace Valve.VR.InteractionSystem
 
 		public float arcDistance = 10.0f;
 
+        public TeleportMarkerBase[] ListOfAvailableTeleportMarkerBase;
+        private int currentTeleportMarkerPos = 0;
+
 		[Header( "Effects" )]
 		public Transform onActivateObjectTransform;
 		public Transform onDeactivateObjectTransform;
@@ -185,6 +188,8 @@ namespace Valve.VR.InteractionSystem
 			CheckForSpawnPoint();
 
 			Invoke( "ShowTeleportHint", 5.0f );
+
+            ForceTeleportPlayer(ListOfAvailableTeleportMarkerBase[currentTeleportMarkerPos]);
 		}
 
 
@@ -233,9 +238,22 @@ namespace Valve.VR.InteractionSystem
 		//-------------------------------------------------
 		void Update()
 		{
-			Hand oldPointerHand = pointerHand;
-			Hand newPointerHand = null;
+			//Hand oldPointerHand = pointerHand;
+			//Hand newPointerHand = null;
 
+            foreach( Hand hand in player.hands)
+            {
+                if( WasTeleportButtonPressed(hand))
+                {
+                    //TryTeleportPlayer();
+                    currentTeleportMarkerPos++;
+                    if (currentTeleportMarkerPos > ListOfAvailableTeleportMarkerBase.Length - 1)
+                        currentTeleportMarkerPos = 0;
+                    ForceTeleportPlayer(ListOfAvailableTeleportMarkerBase[currentTeleportMarkerPos]);
+                }
+            }
+
+           /*
 			foreach ( Hand hand in player.hands )
 			{
 				if ( visible )
@@ -255,8 +273,8 @@ namespace Valve.VR.InteractionSystem
 				}
 			}
 
-			//If something is attached to the hand that is preventing teleport
-			if ( allowTeleportWhileAttached && !allowTeleportWhileAttached.teleportAllowed )
+            //If something is attached to the hand that is preventing teleport
+            if ( allowTeleportWhileAttached && !allowTeleportWhileAttached.teleportAllowed )
 			{
 				HidePointer();
 			}
@@ -303,6 +321,7 @@ namespace Valve.VR.InteractionSystem
 					onDeactivateObjectTransform.gameObject.SetActive( false );
 				}
 			}
+            */
 		}
 
 
@@ -823,6 +842,13 @@ namespace Valve.VR.InteractionSystem
 			}
 		}
 
+        private void ForceTeleportPlayer(TeleportMarkerBase ForceToPointAt)
+        {
+            teleportingToMarker = ForceToPointAt;
+            InitiateTeleportFade();
+            CancelTeleportHint();
+        }
+
 
 		//-------------------------------------------------
 		private void InitiateTeleportFade()
@@ -860,13 +886,15 @@ namespace Valve.VR.InteractionSystem
 
 			TeleportPoint teleportPoint = teleportingToMarker as TeleportPoint;
 			Vector3 teleportPosition = pointedAtPosition;
+            Quaternion teleportRotation = player.trackingOriginTransform.rotation;
 
-			if ( teleportPoint != null )
+            if ( teleportPoint != null )
 			{
 				teleportPosition = teleportPoint.transform.position;
+                teleportRotation = teleportPoint.transform.rotation;
 
-				//Teleport to a new scene
-				if ( teleportPoint.teleportType == TeleportPoint.TeleportPointType.SwitchToNewScene )
+                //Teleport to a new scene
+                if ( teleportPoint.teleportType == TeleportPoint.TeleportPointType.SwitchToNewScene )
 				{
 					teleportPoint.TeleportToScene();
 					return;
@@ -891,6 +919,7 @@ namespace Valve.VR.InteractionSystem
 			{
 				Vector3 playerFeetOffset = player.trackingOriginTransform.position - player.feetPositionGuess;
 				player.trackingOriginTransform.position = teleportPosition + playerFeetOffset;
+                player.trackingOriginTransform.rotation = teleportRotation;
 
                 if (player.leftHand.currentAttachedObjectInfo.HasValue)
                     player.leftHand.ResetAttachedTransform(player.leftHand.currentAttachedObjectInfo.Value);
@@ -950,7 +979,7 @@ namespace Valve.VR.InteractionSystem
 		{
 			CancelTeleportHint();
 
-			hintCoroutine = StartCoroutine( TeleportHintCoroutine() );
+		//	hintCoroutine = StartCoroutine( TeleportHintCoroutine() );
 		}
 
 
@@ -971,59 +1000,59 @@ namespace Valve.VR.InteractionSystem
 
 
 		//-------------------------------------------------
-		private IEnumerator TeleportHintCoroutine()
-		{
-			float prevBreakTime = Time.time;
-			float prevHapticPulseTime = Time.time;
+		//private IEnumerator TeleportHintCoroutine()
+		//{
+		//	float prevBreakTime = Time.time;
+		//	float prevHapticPulseTime = Time.time;
 
-			while ( true )
-			{
-				bool pulsed = false;
+		//	while ( true )
+		//	{
+		//		bool pulsed = false;
 
-				//Show the hint on each eligible hand
-				foreach ( Hand hand in player.hands )
-				{
-					bool showHint = IsEligibleForTeleport( hand );
-					bool isShowingHint = !string.IsNullOrEmpty( ControllerButtonHints.GetActiveHintText( hand, teleportAction) );
-					if ( showHint )
-					{
-						if ( !isShowingHint )
-						{
-							ControllerButtonHints.ShowTextHint( hand, teleportAction, "Teleport" );
-							prevBreakTime = Time.time;
-							prevHapticPulseTime = Time.time;
-						}
+		//		//Show the hint on each eligible hand
+		//		foreach ( Hand hand in player.hands )
+		//		{
+		//			bool showHint = IsEligibleForTeleport( hand );
+		//			bool isShowingHint = !string.IsNullOrEmpty( ControllerButtonHints.GetActiveHintText( hand, teleportAction) );
+		//			if ( showHint )
+		//			{
+		//				if ( !isShowingHint )
+		//				{
+		//					ControllerButtonHints.ShowTextHint( hand, teleportAction, "Teleport" );
+		//					prevBreakTime = Time.time;
+		//					prevHapticPulseTime = Time.time;
+		//				}
 
-						if ( Time.time > prevHapticPulseTime + 0.05f )
-						{
-							//Haptic pulse for a few seconds
-							pulsed = true;
+		//				if ( Time.time > prevHapticPulseTime + 0.05f )
+		//				{
+		//					//Haptic pulse for a few seconds
+		//					pulsed = true;
 
-							hand.TriggerHapticPulse( 500 );
-						}
-					}
-					else if ( !showHint && isShowingHint )
-					{
-						ControllerButtonHints.HideTextHint( hand, teleportAction);
-					}
-				}
+		//					hand.TriggerHapticPulse( 500 );
+		//				}
+		//			}
+		//			else if ( !showHint && isShowingHint )
+		//			{
+		//				ControllerButtonHints.HideTextHint( hand, teleportAction);
+		//			}
+		//		}
 
-				if ( Time.time > prevBreakTime + 3.0f )
-				{
-					//Take a break for a few seconds
-					yield return new WaitForSeconds( 3.0f );
+		//		if ( Time.time > prevBreakTime + 3.0f )
+		//		{
+		//			//Take a break for a few seconds
+		//			yield return new WaitForSeconds( 3.0f );
 
-					prevBreakTime = Time.time;
-				}
+		//			prevBreakTime = Time.time;
+		//		}
 
-				if ( pulsed )
-				{
-					prevHapticPulseTime = Time.time;
-				}
+		//		if ( pulsed )
+		//		{
+		//			prevHapticPulseTime = Time.time;
+		//		}
 
-				yield return null;
-			}
-		}
+		//		yield return null;
+		//	}
+		//}
 
 
 		//-------------------------------------------------
