@@ -40,6 +40,9 @@ namespace Valve.VR.InteractionSystem
         [Tooltip("This action lets you know when the player has placed the headset on their head")]
         public SteamVR_Action_Boolean headsetOnHead = SteamVR_Input.GetBooleanAction("HeadsetOnHead");
 
+        [Tooltip("Spawn the teleporter Marker in case we want the player to return back to it's origin")]
+        public GameObject TeleportMarker;
+
 		public bool allowToggleTo2D = true;
 
 
@@ -277,6 +280,18 @@ namespace Valve.VR.InteractionSystem
 				ActivateRig( rig2DFallback );
 #endif
 			}
+
+            //if (TeleportMarker != null)
+            //{
+            //    GameObject spawner = Instantiate(TeleportMarker, transform.position, transform.rotation);
+            //    Teleport t = GameObject.Find("Teleporting").GetComponent<Teleport>();
+               
+            //    TeleportMarkerBase[] markerBaseArray = new TeleportMarkerBase[t.ListOfAvailableTeleportMarkerBase.Length + 1];
+            //    for (int i = 0; i < t.ListOfAvailableTeleportMarkerBase.Length; i++)
+            //        markerBaseArray[i] = t.ListOfAvailableTeleportMarkerBase[i];
+            //    markerBaseArray[markerBaseArray.Length - 1] = spawner.GetComponent<TeleportMarkerBase>();
+            //    t.ListOfAvailableTeleportMarkerBase = markerBaseArray;
+            //}
         }
 
         protected virtual void Update()
