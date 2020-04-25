@@ -17,7 +17,7 @@ namespace Valve.VR.InteractionSystem.Sample
 
         private void OnEnable()
         {
-            StartCoroutine(HatSwitcher());
+            //StartCoroutine(HatSwitcher());
         }
 
         private IEnumerator HatSwitcher()

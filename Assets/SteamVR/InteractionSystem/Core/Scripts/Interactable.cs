@@ -72,7 +72,7 @@ namespace Valve.VR.InteractionSystem
         [Tooltip("Higher is better")]
         public int hoverPriority = 0;
 
-        [System.NonSerialized]
+        //[System.NonSerialized]
         public Hand attachedToHand;
 
         [System.NonSerialized]
@@ -289,8 +289,9 @@ namespace Valve.VR.InteractionSystem
         protected float blendToPoseTime = 0.1f;
         protected float releasePoseBlendTime = 0.2f;
 
-        protected virtual void OnAttachedToHand(Hand hand)
+        public virtual void OnAttachedToHand(Hand hand)
         {
+            Debug.Log("Attached to hand");
             if (activateActionSetOnAttach != null)
                 activateActionSetOnAttach.Activate(hand.handType);
 
