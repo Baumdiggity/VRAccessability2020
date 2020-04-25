@@ -14,6 +14,7 @@ public class LoadScene : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if( other.tag == "Robot")
-            SceneManager.LoadScene(SceneToLoad);
+            //SceneManager.LoadScene(SceneToLoad);
+            Valve.VR.SteamVR_LoadLevel.Begin(SceneToLoad);
     }
 }
