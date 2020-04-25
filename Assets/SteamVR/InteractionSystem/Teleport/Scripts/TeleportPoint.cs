@@ -12,43 +12,44 @@ using UnityEditor;
 
 namespace Valve.VR.InteractionSystem
 {
-	//-------------------------------------------------------------------------
-	public class TeleportPoint : TeleportMarkerBase
-	{
-		public enum TeleportPointType
-		{
-			MoveToLocation,
-			SwitchToNewScene
-		};
+    //-------------------------------------------------------------------------
+    public class TeleportPoint : TeleportMarkerBase
+    {
+        public enum TeleportPointType
+        {
+            MoveToLocation,
+            SwitchToNewScene
+        };
 
-		//Public variables
-		public TeleportPointType teleportType = TeleportPointType.MoveToLocation;
-		public string title;
-		public string switchToScene;
-		public Color titleVisibleColor;
-		public Color titleHighlightedColor;
-		public Color titleLockedColor;
-		public bool playerSpawnPoint = false;
+        //Public variables
+        public TeleportPointType teleportType = TeleportPointType.MoveToLocation;
+        public string title;
+        public string switchToScene;
+        public Color titleVisibleColor;
+        public Color titleHighlightedColor;
+        public Color titleLockedColor;
+        public bool playerSpawnPoint = false;
 
-		//Private data
-		private bool gotReleventComponents = false;
-		private MeshRenderer markerMesh;
-		private MeshRenderer switchSceneIcon;
-		private MeshRenderer moveLocationIcon;
-		private MeshRenderer lockedIcon;
-		private MeshRenderer pointIcon;
-		private Transform lookAtJointTransform;
-		private new Animation animation;
-		private Text titleText;
-		private Player player;
-		private Vector3 lookAtPosition = Vector3.zero;
-		private int tintColorID = 0;
-		private Color tintColor = Color.clear;
-		private Color titleColor = Color.clear;
-		private float fullTitleAlpha = 0.0f;
+        //Private data
+        private bool gotReleventComponents = false;
+        // uh oh? We probably need to modify this code to allow us play with the camera mesh hmm
+        private MeshRenderer markerMesh;
+        private MeshRenderer switchSceneIcon;
+        private MeshRenderer moveLocationIcon;
+        private MeshRenderer lockedIcon;
+        private MeshRenderer pointIcon;
+        private Transform lookAtJointTransform;
+        private new Animation animation;
+        private Text titleText;
+        private Player player;
+        private Vector3 lookAtPosition = Vector3.zero;
+        private int tintColorID = 0;
+        private Color tintColor = Color.clear;
+        private Color titleColor = Color.clear;
+        private float fullTitleAlpha = 0.0f;
 
-		//Constants
-		private const string switchSceneAnimation = "switch_scenes_idle";
+        //Constants
+        private const string switchSceneAnimation = "switch_scenes_idle";
 		private const string moveLocationAnimation = "move_location_idle";
 		private const string lockedAnimation = "locked_idle";
 
