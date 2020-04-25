@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LoadScene : MonoBehaviour
 {
-    public Scene SceneToLoad;
+    public string SceneToLoad;
 
     /// <summary>
     /// Load the scene when the robot enters the triggers
@@ -14,6 +14,6 @@ public class LoadScene : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if( other.tag == "Robot")
-            SceneManager.LoadScene(SceneToLoad.name);
+            SceneManager.LoadScene(SceneToLoad);
     }
 }
