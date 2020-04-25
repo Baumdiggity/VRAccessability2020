@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 7303237594922579194}
   - component: {fileID: 1729744386766163660}
   - component: {fileID: 5421700845821997621}
-  - component: {fileID: 7611840254391413014}
   - component: {fileID: 2838626787323952281}
+  - component: {fileID: -6631203006943040519}
   m_Layer: 0
   m_Name: applecore
   m_TagString: Untagged
@@ -83,20 +83,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &7611840254391413014
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5981086231712597737}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6892750972563599812, guid: b734e7512720b4d409ff33dccb7948e8, type: 3}
 --- !u!54 &2838626787323952281
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -105,7 +91,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5981086231712597737}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.5
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -113,3 +99,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &-6631203006943040519
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5981086231712597737}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0033535326, y: 0.003365472, z: 0.0055028317}
+  m_Center: {x: 0.000047821202, y: -0.000045036373, z: 0.00048044533}
