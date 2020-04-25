@@ -22,7 +22,7 @@ public class Butter : MonoBehaviour
             GetComponent<Rigidbody>().useGravity = false;
             GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
             GetComponent<Rigidbody>().velocity = Vector3.zero;
-            GetComponent<Collider>().enabled = false;
+            //GetComponent<Collider>().enabled = false;
 
             transform.rotation = Quaternion.identity;
             transform.parent = robotCarryPointToSnapTo.transform;

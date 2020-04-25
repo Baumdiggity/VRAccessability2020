@@ -9,6 +9,8 @@ TagManager:
   - Robot
   - RHand
   - TeleportCamera
+  - ButterCarryPoint
+  - Butter
   layers:
   - Default
   - TransparentFX
