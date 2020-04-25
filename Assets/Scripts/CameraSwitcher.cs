@@ -33,6 +33,6 @@ public class CameraSwitcher : MonoBehaviour
         }
 
         //teleport player here
-        Teleport.instance.TeleportPlayerToPoint(listOfCameras[currentIndx].gameObject.transform);
+        //Teleport.instance.TeleportPlayerToPoint(listOfCameras[currentIndx].gameObject.transform);
     }
 }
