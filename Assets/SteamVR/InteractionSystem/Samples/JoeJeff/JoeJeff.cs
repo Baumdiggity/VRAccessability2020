@@ -9,6 +9,8 @@ namespace Valve.VR.InteractionSystem.Sample
         //public float animationSpeed;
 
         public float jumpVelocity;
+        public AudioSource jumpAud;
+        public AudioSource moveAud;
 
         [SerializeField]
         private float m_MovingTurnSpeed = 360;
@@ -140,15 +142,25 @@ namespace Valve.VR.InteractionSystem.Sample
             Vector3 gravity = Vector3.up * rigidbody.velocity.y;
             Vector3 direction = transform.forward * move.magnitude;
 
+
+
             if (isGrounded)
             {
                 rigidbody.velocity = direction + gravity;
             }
             else
             {
-                // OOF! that's gonna hurt!... ouch!
+                // OOF! that's gonna hurt!... ouch! //lol, excuse me, what?
                 rigidbody.velocity += direction * 0.1f;
             }
+
+            //Debug.Log(rigidbody.velocity.magnitude); //was working on movement sound, but put this on hold for now
+            //if (isGrounded && rigidbody.velocity.magnitude != 0 && !moveAud.isPlaying)
+            //{
+            //    moveAud.Play();
+            //}
+            //else if (!(isGrounded) || rigidbody.velocity.magnitude < 1f)
+            //    moveAud.Stop();
 
             // send input and other state parameters to the animator
             //UpdateAnimator(move);
@@ -236,6 +248,8 @@ namespace Valve.VR.InteractionSystem.Sample
             isGrounded = false;
             jumpTimer = 0.1f;
             //animator.applyRootMotion = false;
+            Debug.Log("jumped");
+            jumpAud.Play();
             rigidbody.position += Vector3.up * 0.03f;
             Vector3 velocity = rigidbody.velocity;
             velocity.y = jumpVelocity;
