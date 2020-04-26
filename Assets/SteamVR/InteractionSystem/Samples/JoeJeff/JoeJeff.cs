@@ -6,7 +6,7 @@ namespace Valve.VR.InteractionSystem.Sample
 {
     public class JoeJeff : MonoBehaviour
     {
-        public float animationSpeed;
+        //public float animationSpeed;
 
         public float jumpVelocity;
 
@@ -34,7 +34,7 @@ namespace Valve.VR.InteractionSystem.Sample
 
         private float groundedTime;
 
-        private Animator animator;
+        //private Animator animator;
 
         private Vector3 input;
 
@@ -43,18 +43,18 @@ namespace Valve.VR.InteractionSystem.Sample
         private new Rigidbody rigidbody;
         private Interactable interactable;
 
-        public FireSource fire;
+        //public FireSource fire;
 
 
         private void Start()
         {
-            animator = GetComponent<Animator>();
+            //animator = GetComponent<Animator>();
             rigidbody = GetComponent<Rigidbody>();
             interactable = GetComponent<Interactable>();
-            if (animator != null)
-            {
-                animator.speed = animationSpeed;
-            }
+            //if (animator != null)
+            //{
+            //    animator.speed = animationSpeed;
+            //}
         }
 
         private void Update()
@@ -82,6 +82,7 @@ namespace Valve.VR.InteractionSystem.Sample
         }
 
 
+        /*
         public void OnAnimatorMove()
         {
             // we implement this function to override the default root motion.
@@ -113,6 +114,7 @@ namespace Valve.VR.InteractionSystem.Sample
                 }
             }
         }
+        */
 
         public void Move(Vector3 move, bool jump)
         {
@@ -132,12 +134,27 @@ namespace Valve.VR.InteractionSystem.Sample
             {
                 HandleGroundedMovement(jump);
             }
+            // so... here's the kicker, we need to be able to interpolate adding force while we're not in the air, otherwise we'll force the velocity over time.
+            // this is where we'll add strafe motion while we're not on ground.
 
+            Vector3 gravity = Vector3.up * rigidbody.velocity.y;
+            Vector3 direction = transform.forward * move.magnitude;
+
+            if (isGrounded)
+            {
+                rigidbody.velocity = direction + gravity;
+            }
+            else
+            {
+                // OOF! that's gonna hurt!... ouch!
+                rigidbody.velocity += direction * 0.1f;
+            }
 
             // send input and other state parameters to the animator
-            UpdateAnimator(move);
+            //UpdateAnimator(move);
         }
 
+        /*
         private void UpdateAnimator(Vector3 move)
         { if (animator != null)
             {
@@ -155,6 +172,7 @@ namespace Valve.VR.InteractionSystem.Sample
                 }
             }
         }
+        */
 
         private void ApplyExtraTurnRotation()
         {
@@ -171,6 +189,7 @@ namespace Valve.VR.InteractionSystem.Sample
                 isGrounded = (Physics.SphereCast(new Ray(transform.position + Vector3.up * footHeight, Vector3.down), footRadius, out footHit, footHeight - footRadius));
                 if (isGrounded)
                 {
+                    // was there suppose to be something here???
                 }
                 if (Vector2.Distance(new Vector2(transform.position.x, transform.position.z), new Vector2(footHit.point.x, footHit.point.z)) > footRadius / 2)
                 {
@@ -184,6 +203,11 @@ namespace Valve.VR.InteractionSystem.Sample
             // Draw a yellow sphere at the transform's position
             Gizmos.color = Color.yellow;
             Gizmos.DrawSphere(transform.position + Vector3.up * footHeight, footRadius);
+            if( footHit.point != Vector3.zero)
+                Gizmos.DrawLine(transform.position, footHit.point);
+
+            Gizmos.color = isGrounded ? Color.green : Color.red;
+            Gizmos.DrawRay(transform.position + Vector3.up * footHeight, Vector3.down);
         }
 
         private void FixedUpdate()
@@ -191,23 +215,19 @@ namespace Valve.VR.InteractionSystem.Sample
             groundedTime += Time.fixedDeltaTime;
             if (!isGrounded) groundedTime = 0; // reset timer
 
+            // what?
             if (isGrounded & !held)
             {
-                Debug.DrawLine(transform.position, footHit.point);
-
-                rigidbody.position = new Vector3(rigidbody.position.x, footHit.point.y, rigidbody.position.z);
+                // part of the problem is this... 
+                //rigidbody.position = new Vector3(rigidbody.position.x, footHit.point.y, rigidbody.position.z);
             }
         }
-
-
 
         private void HandleGroundedMovement(bool jump)
         {
             // check whether conditions are right to allow a jump:
             if (jump && isGrounded)
-            {
                 Jump();
-            }
         }
 
         private float jumpTimer;
@@ -215,7 +235,7 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             isGrounded = false;
             jumpTimer = 0.1f;
-            animator.applyRootMotion = false;
+            //animator.applyRootMotion = false;
             rigidbody.position += Vector3.up * 0.03f;
             Vector3 velocity = rigidbody.velocity;
             velocity.y = jumpVelocity;

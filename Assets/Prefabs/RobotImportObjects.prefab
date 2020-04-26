@@ -344,30 +344,40 @@ PrefabInstance:
       propertyPath: m_Drag
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 95000014128282368, guid: 48530aab98abaa541acf2cf3f3f06d20,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 114000011362219128, guid: 48530aab98abaa541acf2cf3f3f06d20,
         type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000011945287500, guid: 48530aab98abaa541acf2cf3f3f06d20,
+        type: 3}
+      propertyPath: jumpVelocity
+      value: 5.5
+      objectReference: {fileID: 0}
     - target: {fileID: 136000010227024992, guid: 48530aab98abaa541acf2cf3f3f06d20,
         type: 3}
       propertyPath: m_Radius
-      value: 0.4
+      value: 0.2529137
       objectReference: {fileID: 0}
     - target: {fileID: 136000010227024992, guid: 48530aab98abaa541acf2cf3f3f06d20,
         type: 3}
       propertyPath: m_Height
-      value: 1.09
+      value: 0.6335389
       objectReference: {fileID: 0}
     - target: {fileID: 136000010227024992, guid: 48530aab98abaa541acf2cf3f3f06d20,
         type: 3}
       propertyPath: m_Center.y
-      value: 0.37
+      value: 0.36323056
       objectReference: {fileID: 0}
     - target: {fileID: 136000010227024992, guid: 48530aab98abaa541acf2cf3f3f06d20,
         type: 3}
       propertyPath: m_Direction
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1206616821155373005, guid: 48530aab98abaa541acf2cf3f3f06d20,
         type: 3}
