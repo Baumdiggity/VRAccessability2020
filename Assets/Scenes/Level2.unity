@@ -9713,7 +9713,7 @@ PrefabInstance:
     - target: {fileID: 7194871311549183094, guid: dba418ab7899a664cb4c7daa72c00c9e,
         type: 3}
       propertyPath: NextLevel
-      value: TutorialLevel
+      value: WinScene
       objectReference: {fileID: 0}
     - target: {fileID: 7194871311549183095, guid: dba418ab7899a664cb4c7daa72c00c9e,
         type: 3}
