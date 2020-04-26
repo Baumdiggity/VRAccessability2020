@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Scenes/Level1.meta
 guid: 6ef07aca2b8a06f4da81638ac3974fd4
+=======
+guid: 74960997f1021c54c9f5dc48153d9532
+>>>>>>> abb0cdb23bd4f526d328fed57139ef9d43fb4cdc:Assets/VideoClips.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
