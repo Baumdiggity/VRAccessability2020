@@ -7,6 +7,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 using System.Collections;
+using UnityEngine.UI;
 
 namespace Valve.VR.InteractionSystem
 {
@@ -37,6 +38,8 @@ namespace Valve.VR.InteractionSystem
 		public float meshFadeTime = 0.2f;
 
 		public float arcDistance = 10.0f;
+
+        public Text cameraLocation;
 
         public TeleportMarkerBase[] ListOfAvailableTeleportMarkerBase;
         private int currentTeleportMarkerPos = 0;
@@ -229,9 +232,7 @@ namespace Valve.VR.InteractionSystem
 		public void HideTeleportPointer()
 		{
 			if ( pointerHand != null )
-			{
 				HidePointer();
-			}
 		}
 
 
@@ -844,6 +845,8 @@ namespace Valve.VR.InteractionSystem
 
         private void ForceTeleportPlayer(TeleportMarkerBase ForceToPointAt)
         {
+            if (cameraLocation != null)
+                cameraLocation.text = ForceToPointAt.GetComponent<TeleportPoint>().title; 
             teleportingToMarker = ForceToPointAt;
             InitiateTeleportFade();
             CancelTeleportHint();
