@@ -8,6 +8,12 @@ public class TrashDump : MonoBehaviour
     public GameObject dustPoof;
 
     bool exploding = false;
+    AudioSource audioSource;
+
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -15,6 +21,7 @@ public class TrashDump : MonoBehaviour
         {
             exploding = true;
             dustPoof.SetActive(true);
+            audioSource.Play();
             for(int i =5; i>0; i--)
             {
 
