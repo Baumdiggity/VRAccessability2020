@@ -259,6 +259,9 @@ namespace Valve.VR.InteractionSystem
 			{
 				trackingOriginTransform = this.transform;
 			}
+
+            if (_instance != null)
+                this.gameObject.SetActive(false);
 		}
 
 
