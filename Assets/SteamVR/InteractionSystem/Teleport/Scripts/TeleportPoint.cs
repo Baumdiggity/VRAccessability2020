@@ -23,7 +23,7 @@ namespace Valve.VR.InteractionSystem
 
         //Public variables
         public TeleportPointType teleportType = TeleportPointType.MoveToLocation;
-        public string title;
+        public string title;    // needs to be accessed by the teleporting script and the camera's viewscreen script. 
         public string switchToScene;
         public Color titleVisibleColor;
         public Color titleHighlightedColor;
@@ -40,7 +40,7 @@ namespace Valve.VR.InteractionSystem
         private MeshRenderer pointIcon;
         private Transform lookAtJointTransform;
         private new Animation animation;
-        private Text titleText;
+        //private Text titleText;
         private Player player;
         private Vector3 lookAtPosition = Vector3.zero;
         private int tintColorID = 0;
@@ -183,7 +183,7 @@ namespace Valve.VR.InteractionSystem
 				}
 			}
 
-			titleText.text = title;
+			//titleText.text = title;
 		}
 
 
@@ -199,7 +199,7 @@ namespace Valve.VR.InteractionSystem
 			lockedIcon.material.SetColor( tintColorID, tintColor );
 
 			titleColor.a = fullTitleAlpha * alphaPercent;
-			titleText.color = titleColor;
+			//titleText.color = titleColor;
 		}
 
 
@@ -213,7 +213,7 @@ namespace Valve.VR.InteractionSystem
 
 			titleColor = textColor;
 			fullTitleAlpha = textColor.a;
-			titleText.color = titleColor;
+			//titleText.color = titleColor;
 		}
 
 
@@ -240,7 +240,7 @@ namespace Valve.VR.InteractionSystem
 			lockedIcon = transform.Find( "teleport_marker_lookat_joint/teleport_marker_icons/locked_icon" ).GetComponent<MeshRenderer>();
 			lookAtJointTransform = transform.Find( "teleport_marker_lookat_joint" );
 
-			titleText = transform.Find( "teleport_marker_lookat_joint/teleport_marker_canvas/teleport_marker_canvas_text" ).GetComponent<Text>();
+			//titleText = transform.Find( "teleport_marker_lookat_joint/teleport_marker_canvas/teleport_marker_canvas_text" ).GetComponent<Text>();
 
 			gotReleventComponents = true;
 		}
@@ -254,7 +254,7 @@ namespace Valve.VR.InteractionSystem
 			moveLocationIcon = null;
 			lockedIcon = null;
 			lookAtJointTransform = null;
-			titleText = null;
+			//titleText = null;
 		}
 
 
@@ -277,7 +277,7 @@ namespace Valve.VR.InteractionSystem
 				markerMesh.sharedMaterial = Teleport.instance.pointLockedMaterial;
 				lockedIcon.sharedMaterial = Teleport.instance.pointLockedMaterial;
 
-				titleText.color = titleLockedColor;
+				//titleText.color = titleLockedColor;
 			}
 			else
 			{
@@ -287,7 +287,7 @@ namespace Valve.VR.InteractionSystem
 				switchSceneIcon.sharedMaterial = Teleport.instance.pointVisibleMaterial;
 				moveLocationIcon.sharedMaterial = Teleport.instance.pointVisibleMaterial;
 
-				titleText.color = titleVisibleColor;
+				//titleText.color = titleVisibleColor;
 
 				switch ( teleportType )
 				{
@@ -306,7 +306,7 @@ namespace Valve.VR.InteractionSystem
 				}
 			}
 
-			titleText.text = title;
+			//titleText.text = title;
 
 			ReleaseRelevantComponents();
 		}
