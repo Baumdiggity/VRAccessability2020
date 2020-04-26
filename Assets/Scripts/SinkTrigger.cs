@@ -7,6 +7,12 @@ public class SinkTrigger : MonoBehaviour
     public GameObject particleObject;
     bool isON = false;
     bool delay = false;
+    AudioSource audioSource;
+
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Robot"))
@@ -15,6 +21,14 @@ public class SinkTrigger : MonoBehaviour
             {
                 isON = !isON;
                 particleObject.SetActive(isON);
+                if (isON)
+                {
+                    audioSource.Play();
+                }
+                else
+                {
+                    audioSource.Stop();
+                }
                 StartCoroutine("SinkOn");
             }
         }
