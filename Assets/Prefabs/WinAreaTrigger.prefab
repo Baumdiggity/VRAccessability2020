@@ -262,6 +262,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ce873c430c2cd24da62d3f0cea75ff4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextLevel: 
+  waitTimeToLoadNextScene: 1
 --- !u!1001 &1271218757499267034
 PrefabInstance:
   m_ObjectHideFlags: 0
