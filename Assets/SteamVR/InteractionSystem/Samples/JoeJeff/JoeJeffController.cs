@@ -20,6 +20,7 @@ namespace Valve.VR.InteractionSystem.Sample
         private Vector3 movement;
         private bool jump;
         private float glow;
+        [SerializeField]
         private SteamVR_Input_Sources hand;
         private Interactable interactable;
         private Hand attachToHand;
@@ -36,6 +37,7 @@ namespace Valve.VR.InteractionSystem.Sample
             if (interactable.attachedToHand)
             {
                 hand = interactable.attachedToHand.handType;
+                Debug.Log(hand);
                 Vector2 m = moveAction[hand].axis;
                 movement = new Vector3(m.x, 0, m.y);
 
