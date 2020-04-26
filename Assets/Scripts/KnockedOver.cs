@@ -7,6 +7,12 @@ public class KnockedOver : MonoBehaviour
     public GameObject[] trashObjects;
     public GameObject dustPoof;
     bool exploding = false;
+    AudioSource audioSource;
+
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -15,6 +21,7 @@ public class KnockedOver : MonoBehaviour
         {
             exploding = true;
             dustPoof.SetActive(true);
+            audioSource.PlayOneShot(audioSource.clip);
             for (int i = Random.Range(1,5); i > 0; i--)
             {
 
