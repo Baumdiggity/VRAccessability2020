@@ -9,7 +9,7 @@ public class RobotSounds : MonoBehaviour
     public AudioClip jumpClip;
     public AudioClip butterClip;
     public AudioSource movingAudSource;
-    private float randTimeInterval = 5;
+    private float randTimeInterval = 30;
     private int randIndx;
 
     private void Start()
