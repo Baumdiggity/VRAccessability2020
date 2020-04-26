@@ -5845,6 +5845,16 @@ PrefabInstance:
       propertyPath: m_Direction
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3236571689370411288, guid: 96d0d8806deef3040966349a223d029f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3277515675667101150, guid: 96d0d8806deef3040966349a223d029f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8274060415103695607, guid: 96d0d8806deef3040966349a223d029f,
         type: 3}
       propertyPath: m_LocalPosition.x

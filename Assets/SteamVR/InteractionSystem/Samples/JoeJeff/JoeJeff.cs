@@ -27,7 +27,7 @@ namespace Valve.VR.InteractionSystem.Sample
 
         private RaycastHit footHit;
 
-        private bool isGrounded;
+        public bool isGrounded;
 
         private float turnAmount;
         private float forwardAmount;
@@ -169,6 +169,9 @@ namespace Valve.VR.InteractionSystem.Sample
             if (jumpTimer < 0 & !held) // make sure we didn't just jump
             {
                 isGrounded = (Physics.SphereCast(new Ray(transform.position + Vector3.up * footHeight, Vector3.down), footRadius, out footHit, footHeight - footRadius));
+                if (isGrounded)
+                {
+                }
                 if (Vector2.Distance(new Vector2(transform.position.x, transform.position.z), new Vector2(footHit.point.x, footHit.point.z)) > footRadius / 2)
                 {
                     isGrounded = false;
@@ -176,7 +179,12 @@ namespace Valve.VR.InteractionSystem.Sample
                 }
             }
         }
-
+        void OnDrawGizmosSelected()
+        {
+            // Draw a yellow sphere at the transform's position
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawSphere(transform.position + Vector3.up * footHeight, footRadius);
+        }
 
         private void FixedUpdate()
         {
