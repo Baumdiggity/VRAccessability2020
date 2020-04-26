@@ -141,6 +141,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: JoeJeff
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014269227198, guid: 48530aab98abaa541acf2cf3f3f06d20, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011436130900, guid: 48530aab98abaa541acf2cf3f3f06d20, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.292428
@@ -184,6 +188,26 @@ PrefabInstance:
     - target: {fileID: 4000011436130900, guid: 48530aab98abaa541acf2cf3f3f06d20, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011362219128, guid: 48530aab98abaa541acf2cf3f3f06d20,
+        type: 3}
+      propertyPath: startActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011362219128, guid: 48530aab98abaa541acf2cf3f3f06d20,
+        type: 3}
+      propertyPath: isBurning
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011362219128, guid: 48530aab98abaa541acf2cf3f3f06d20,
+        type: 3}
+      propertyPath: burnTime
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011362219128, guid: 48530aab98abaa541acf2cf3f3f06d20,
+        type: 3}
+      propertyPath: canSpreadFromThisSource
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48530aab98abaa541acf2cf3f3f06d20, type: 3}
