@@ -291,7 +291,6 @@ namespace Valve.VR.InteractionSystem
 
         public virtual void OnAttachedToHand(Hand hand)
         {
-            Debug.Log("Attached to hand");
             if (activateActionSetOnAttach != null)
                 activateActionSetOnAttach.Activate(hand.handType);
 

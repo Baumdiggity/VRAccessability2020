@@ -13,11 +13,9 @@ public class Butter : MonoBehaviour
     }
 
     private void OnCollisionEnter(Collision collision)
-    {
-        Debug.Log("collided with something");
+    { 
         if (collision.gameObject.tag == "Robot")
         {
-            Debug.Log("collided with robot");
             //transform.SetParent(robotCarryPointToSnapTo);
             GetComponent<Rigidbody>().useGravity = false;
             GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
@@ -28,7 +26,6 @@ public class Butter : MonoBehaviour
             transform.parent = robotCarryPointToSnapTo.transform;
             transform.position = robotCarryPointToSnapTo.transform.position;
             transform.localPosition = Vector3.zero;
-
         }
     }
 }
