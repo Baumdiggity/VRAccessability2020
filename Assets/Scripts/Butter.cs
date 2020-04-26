@@ -6,15 +6,18 @@ public class Butter : MonoBehaviour
 {
 
     private Transform robotCarryPointToSnapTo;
+    AudioSource audioSource;
+    bool pickedUP;
 
     private void Start()
     {
         robotCarryPointToSnapTo = GameObject.FindGameObjectWithTag("ButterCarryPoint").gameObject.transform;
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void OnCollisionEnter(Collision collision)
     { 
-        if (collision.gameObject.tag == "Robot")
+        if (collision.gameObject.tag == "Robot" && !pickedUP)
         {
             //transform.SetParent(robotCarryPointToSnapTo);
             GetComponent<Rigidbody>().useGravity = false;
@@ -26,6 +29,8 @@ public class Butter : MonoBehaviour
             transform.parent = robotCarryPointToSnapTo.transform;
             transform.position = robotCarryPointToSnapTo.transform.position;
             transform.localPosition = Vector3.zero;
+
+            audioSource.PlayOneShot(audioSource.clip);
         }
     }
 }
