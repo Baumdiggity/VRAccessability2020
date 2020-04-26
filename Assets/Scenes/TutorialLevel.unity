@@ -2336,6 +2336,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: VidFrame (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4574297190999110752, guid: 8975522a45ce756438e41a2e1bdf6190,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.10983396
+      objectReference: {fileID: 0}
+    - target: {fileID: 4574297190999110752, guid: 8975522a45ce756438e41a2e1bdf6190,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.442
+      objectReference: {fileID: 0}
+    - target: {fileID: 4574297190999110752, guid: 8975522a45ce756438e41a2e1bdf6190,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
     - target: {fileID: 5886066822013989564, guid: 8975522a45ce756438e41a2e1bdf6190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2395,6 +2410,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3255998
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173837764869639264, guid: 8975522a45ce756438e41a2e1bdf6190,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.69
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8975522a45ce756438e41a2e1bdf6190, type: 3}
@@ -4420,7 +4440,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 37775bebb7d88a54482f53dede2e446c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 260dab030a27772459a4c89e8daca452, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.77
   m_Pitch: 1
@@ -5032,12 +5052,12 @@ VideoPlayer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1625501433}
-  m_Enabled: 0
-  m_VideoClip: {fileID: 32900000, guid: 06835dc0381fff94b8cac016c95aa66a, type: 3}
+  m_Enabled: 1
+  m_VideoClip: {fileID: 32900000, guid: 61bf0645c057c9645a7fb5f6e0c9a0bb, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 0}
+  m_TargetTexture: {fileID: 8400000, guid: b8eda902091f38c4f91bc5367c742495, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
