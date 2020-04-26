@@ -15,7 +15,7 @@ public class KnockOverSound : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.up.y < .6f && !fell
+        if (transform.up.y < .6f && !fell)
         {
             fell = true;
             audioSource.PlayOneShot(audioSource.clip);
